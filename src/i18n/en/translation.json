@@ -1,0 +1,13 @@
+{
+  "about": "About me",
+  "education": "Education / Certifications",
+  "experience": "Experience",
+  "web-proyects": "Web / Projects",
+  "download-cv": "Download CV",
+  "tittle-page": "Expert developer",
+  "flag": "Flag of",
+  "personal-brand": "If I had to define myself in three words, they would be Perfectionism, Creativity, and Perseverance.",
+  "about-me-p-1": "Web developer with a strong focus on JavaScript, both in its native form and working with modern technologies such as React and NodeJS.",
+  "about-me-p-2": "I have worked with relational (MySQL) and non-relational (MongoDB) databases, and I have experience using Git for version control.",
+  "about-me-p-3": "I apply best practices in layout, code structure, and performance optimization, always striving to make the code clean, readable, and maintainable."
+}

@@ -1,0 +1,11 @@
+@theme {
+  --color-gray-principal-letter: oklch(0.2433 0 0);
+  --color-principal-web: oklch(0.6544 0.2985 244.06);
+  --color-brand-gradient-stop-1: oklch(0.6304 0.18 259.96);
+  --color-brand-gradient-stop-2: oklch(0.6292 0.1358 304.01);
+  --color-brand-gradient-stop-3: oklch(0.6499 0.1458 16.2);
+  --color-surface: oklch(0.1872 0.002 286.2);
+  --font-noto-sans: "NotoSans", -apple-system, system-ui, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --box-shadow-button-verified: 0px 0px 18px 5px rgb(21, 93, 252);
+}

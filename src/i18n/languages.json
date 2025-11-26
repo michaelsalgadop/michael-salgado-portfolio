@@ -1,0 +1,7 @@
+{
+  "languages": [
+    { "code": "es", "label": "Español" },
+    { "code": "ca", "label": "Català" },
+    { "code": "en", "label": "English" }
+  ]
+}

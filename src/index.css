@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "./styles/variables.css";
+@import "./styles/resetters.css";
+@import "./styles/fonts.css";
+@import "./styles/layout.css";
+@import "./styles/helpers.css";
