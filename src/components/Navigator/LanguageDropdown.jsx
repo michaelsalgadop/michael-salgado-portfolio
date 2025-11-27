@@ -7,9 +7,9 @@ export const LanguageDropdown = (props) => {
     setOpen(false);
   };
   return (
-    <div className="absolute w-[125px] xl:w-[150px] top-[45px] right-2.5">
+    <div className="absolute w-[125px] xl:w-[150px] top-[45px] left-2.5">
       {languages ? (
-        <ul className="border-2 border-white rounded-xl bg-black">
+        <ul className="border-2 border-white rounded-xl bg-slate-900">
           {languages.map((lang) => (
             <li
               key={lang.code}

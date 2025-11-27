@@ -1,4 +1,4 @@
-import { useNavigate } from "../../../hooks/useNavigate";
+import { useNavigate } from "../../hooks/useNavigate";
 
 export const Option = (props) => {
   const { url, text } = props;

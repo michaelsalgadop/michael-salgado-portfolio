@@ -1,12 +1,15 @@
 import ownerImg from "../assets/michael-salgado.jpg";
 import rentariImg from "../assets/Rentari.PNG";
+import { Language } from "../components/Navigator/Language";
+import { Menu } from "../components/Navigator/Menu";
 export default function Layout() {
   return (
-    <div className="bg-slate-900 text-white [word-spacing:2px] h-100dvh relative">
+    <div className="bg-slate-900 text-white [word-spacing:2px] h-100dvh relative py-4 px-4">
+      <Language />
       <i></i>
       <i></i>
       <i></i>
-      <header className="py-10 px-4">
+      <header className="py-10 pr-4">
         <h1 className="text-4xl font-bold tracking-tight">Michael Salgado</h1>
         <h2 className="text-xl tracking-tight mt-3">Full-Stack Developer</h2>
         <img
@@ -36,6 +39,9 @@ export default function Layout() {
             <i></i>
           </li>
         </ul>
+        <nav>
+          <Menu></Menu>
+        </nav>
       </header>
       <main className="">
         <section>
