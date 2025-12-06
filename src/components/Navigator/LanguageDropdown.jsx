@@ -7,13 +7,13 @@ export const LanguageDropdown = (props) => {
     setOpen(false);
   };
   return (
-    <div className="absolute w-[125px] xl:w-[150px] top-[45px] left-2.5">
+    <div className="absolute w-[125px] xl:w-[150px] top-[45px] right-2.5">
       {languages ? (
         <ul className="border-2 border-white rounded-xl bg-slate-900">
           {languages.map((lang) => (
             <li
               key={lang.code}
-              className="flex items-center xl:text-[25px] px-1 py-2 cursor-pointer hover:bg-white hover:text-black first:rounded-t-[10px] last:rounded-b-[10px] "
+              className="flex items-center px-1 py-2 cursor-pointer text-white hover:bg-white hover:text-black first:rounded-t-[10px] last:rounded-b-[10px] "
               onClick={() => handleLanguage(lang.code)}
             >
               <img

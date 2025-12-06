@@ -1,4 +1,6 @@
 @theme {
   --font-inter: Inter, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans,
     Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --color-secondary: #1c2842;
+  --color-tertiary: #0098ff;
 }

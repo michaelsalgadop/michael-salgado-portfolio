@@ -8,7 +8,7 @@ export const LanguageButton = (props) => {
   );
   return (
     <div
-      className="cursor-pointer mr-2 flex items-center"
+      className="cursor-pointer mr-2 flex items-center text-white"
       onClick={() => setOpen(!open)}
     >
       <img

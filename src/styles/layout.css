@@ -1,0 +1,13 @@
+.hamburger-line {
+  transition: transform 0.35s ease, opacity 0.25s ease;
+}
+.angle-top-img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-left: 4px solid #fff;
+  border-top: 4px solid #fff;
+}
+section {
+  @apply pl-4 pr-4 pt-10 pb-10 lg:pt-4 lg:pb-4;
+}

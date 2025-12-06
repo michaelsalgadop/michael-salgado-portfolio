@@ -1,68 +1,19 @@
-import ownerImg from "../assets/michael-salgado.jpg";
+import { useContext } from "react";
 import rentariImg from "../assets/Rentari.PNG";
-import { Language } from "../components/Navigator/Language";
-import { Menu } from "../components/Navigator/Menu";
+import { NavbarContext } from "../context/NavbarContext";
+import { DarkScreen } from "../components/DarkScreen";
+import { Header } from "../components/Layout/Header";
+import { About } from "../components/About";
+import { Jumbotron } from "../components/Jumbotron";
 export default function Layout() {
+  const { openNavbar } = useContext(NavbarContext);
   return (
-    <div className="bg-slate-900 text-white [word-spacing:2px] h-100dvh relative py-4 px-4">
-      <Language />
-      <i></i>
-      <i></i>
-      <i></i>
-      <header className="py-10 pr-4">
-        <h1 className="text-4xl font-bold tracking-tight">Michael Salgado</h1>
-        <h2 className="text-xl tracking-tight mt-3">Full-Stack Developer</h2>
-        <img
-          src={ownerImg}
-          alt="Foto del creador del portfolio"
-          className="rounded-full w-100 h-auto"
-        />
-        <i></i>
-        <p className="mt-3 text-lg leading-normal text-gray-400">
-          Enfocado en crear sitios web con atención en cada detalle, ofreciendo
-          una experiencia digital única y creativa.
-        </p>
-        <ul>
-          <li>
-            <i></i>
-          </li>
-          <li>
-            <i></i>
-          </li>
-          <li>
-            <i></i>
-          </li>
-          <li>
-            <i></i>
-          </li>
-          <li>
-            <i></i>
-          </li>
-        </ul>
-        <nav>
-          <Menu></Menu>
-        </nav>
-      </header>
-      <main className="">
-        <section>
-          <h3>SOBRE MI</h3>
-          <p>
-            Soy un desarrollador creativo, con mucha imaginación a la hora de
-            crear diseños para tanto los sitios web en los que he trabajado,
-            como para mis propias webs / proyectos. Perfeccionista, cuido cada
-            detalle, cada pixel importa. Constante, tanto en mis estudios como
-            en el trabajo, todo tenía que salir bien, y si no era así, buscaba
-            1000 maneras para que al final terminara saliendo bien. Me denomino
-            como full-stack, aunque en mis trabajos he estado mas enfocado como
-            frontend, algo que de manera autodidacta no me ha impedido
-            desarrollar mis propios proyectos. He trabajado en distintos
-            entornos de desarrollo, desde Ecommerce hasta gestorías, en los
-            cuales siempre he querido desempeñar todo mi potencial. Además de la
-            experiencia que puedo tener, estoy enfocado en seguir aprendiendo
-            nuevas tecnologías y con gran ilusión de crecer mi carrera
-            profesional.
-          </p>
-        </section>
+    <div>
+      {openNavbar && <DarkScreen />}
+      <Header />
+      <main className="text-white">
+        <Jumbotron />
+        <About />
         <section>
           <h3>EXPERIENCIA PROFESIONAL</h3>
           <p>2021-2024</p>
@@ -247,21 +198,21 @@ export default function Layout() {
         </section>
         <section>
           <h3>Idiomas</h3>
-          <div class="progress">
-            <div class="progress-bar">
-              <span class="progress-bar-text">Nativo</span>
+          <div className="progress">
+            <div className="progress-bar">
+              <span className="progress-bar-text">Nativo</span>
             </div>
           </div>
           <span>Castellano</span>
           <div>
-            <div class="progress-bar">
-              <span class="progress-bar-text">Nativo</span>
+            <div className="progress-bar">
+              <span className="progress-bar-text">Nativo</span>
             </div>
           </div>
           <span>Catalán</span>
           <div>
-            <div class="progress-bar">
-              <span class="progress-bar-text">Profesional</span>
+            <div className="progress-bar">
+              <span className="progress-bar-text">Profesional</span>
             </div>
           </div>
           <span>Inglés</span>
