@@ -4,13 +4,17 @@ import { NavbarContext } from "../../context/NavbarContext";
 
 export const Option = React.memo(({ url, text, isMobile, Icon }) => {
   const { scrollTo } = useNavigate();
-  const navbarContext = useContext(NavbarContext);
+  const { setOpenNavbar, headerRef } = useContext(NavbarContext);
 
   const handleClick = () => {
-    if (isMobile) {
-      navbarContext.setOpenNavbar(false);
-    }
-    scrollTo(url, 1500, isMobile ? -60 : -80); // -80 es offset opcional
+    if (isMobile) setOpenNavbar(false);
+    /**
+     * headerRef.current.offsetHeight es la altura de nuestro header,
+     * está actuando de offset, es decir, de referencia para restar y saber
+     * a que altura nos situaremos en la sección que cliquemos. Por ejemplo, para que el navbar
+     * no tape el titulo de la sección.
+     */
+    scrollTo(url, 1500, -headerRef.current.offsetHeight);
   };
 
   return (

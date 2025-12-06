@@ -1,5 +1,5 @@
 import { NavbarContext } from "./NavbarContext";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import {
   FaBook,
   FaBriefcase,
@@ -12,6 +12,7 @@ export function NavbarProvider({ children }) {
   const [openNavbar, setOpenNavbar] = useState(false);
   const [openLanguage, setOpenLanguage] = useState(false);
   const [activeLink, setActiveLink] = useState("");
+  const headerRef = useRef();
   const sections = useMemo(
     () => [
       { name: "home", icon: FaHouse },
@@ -30,6 +31,7 @@ export function NavbarProvider({ children }) {
         openLanguage,
         activeLink,
         sections,
+        headerRef,
         setOpenNavbar,
         setOpenLanguage,
         setActiveLink,

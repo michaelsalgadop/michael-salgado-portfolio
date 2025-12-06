@@ -7,10 +7,10 @@ import { Language } from "../Navigator/Language";
 import { NavbarContext } from "../../context/NavbarContext";
 
 export const Header = () => {
-  const { openNavbar } = useContext(NavbarContext);
+  const { openNavbar, headerRef } = useContext(NavbarContext);
   const { t } = useTranslation();
   return (
-    <header className="py-4 px-4 sticky top-0 z-50 bg-gray-900">
+    <header className="py-4 px-4 sticky top-0 z-50 bg-gray-900" ref={headerRef}>
       <nav>
         <div className="mx-auto">
           <div className="flex items-center justify-between gap-4">
