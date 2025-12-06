@@ -5,159 +5,17 @@ import { DarkScreen } from "../components/DarkScreen";
 import { Header } from "../components/Layout/Header";
 import { About } from "../components/About";
 import { Jumbotron } from "../components/Jumbotron";
+import { Experiences } from "../components/Experiences";
 export default function Layout() {
   const { openNavbar } = useContext(NavbarContext);
   return (
-    <div>
+    <div className="bg-gray-900">
       {openNavbar && <DarkScreen />}
       <Header />
       <main className="text-white">
         <Jumbotron />
         <About />
-        <section>
-          <h3>EXPERIENCIA PROFESIONAL</h3>
-          <p>2021-2024</p>
-          <p>ALEMANY INFORMATICA SL</p>
-          <p>PROGRAMADOR JUNIOR</p>
-          <p>
-            Experiencia trabajando con JSP, desarrollando funcionalidades
-            multilenguaje mediante archivos de idioma y aplicando medidas de
-            securización en variables y código cliente. Manejo profesional
-            diario de JavaScript, HTML, CSS, Bootstrap, jQuery y JSON.
-            Participación activa en múltiples tareas del backlog, incluyendo
-            consultas y mantenimiento en PostgreSQL, además de garantizar que
-            todas las webs fueran responsive y sin scroll.
-          </p>
-          <ul>
-            <li>
-              <span>JSP</span>
-            </li>
-            <li>
-              <span>Javascript</span>
-            </li>
-            <li>
-              <span>HTML</span>
-            </li>
-            <li>
-              <span>CSS</span>
-            </li>
-            <li>
-              <span>Bootstrap</span>
-            </li>
-            <li>
-              <span>JQuery</span>
-            </li>
-            <li>
-              <span>JSON</span>
-            </li>
-          </ul>
-          <p>2021-2024</p>
-          <p>ALEMANY INFORMATICA SL</p>
-          <p>PROGRAMADOR JUNIOR</p>
-          <p>
-            Experiencia trabajando con JSP, desarrollando funcionalidades
-            multilenguaje mediante archivos de idioma y aplicando medidas de
-            securización en variables y código cliente. Manejo profesional
-            diario de JavaScript, HTML, CSS, Bootstrap, jQuery y JSON.
-            Participación activa en múltiples tareas del backlog, incluyendo
-            consultas y mantenimiento en PostgreSQL, además de garantizar que
-            todas las webs fueran responsive y sin scroll.
-          </p>
-          <ul>
-            <li>
-              <span>JSP</span>
-            </li>
-            <li>
-              <span>PostgreSQL</span>
-            </li>
-            <li>
-              <span>Javascript</span>
-            </li>
-            <li>
-              <span>HTML</span>
-            </li>
-            <li>
-              <span>CSS</span>
-            </li>
-            <li>
-              <span>Bootstrap</span>
-            </li>
-            <li>
-              <span>JQuery</span>
-            </li>
-            <li>
-              <span>JSON</span>
-            </li>
-          </ul>
-          <p>2020</p>
-          <p>MASKOKOTAS</p>
-          <p>PROGRAMADOR JUNIOR</p>
-          <p>
-            Experiencia enfocado en la parte frontend, y realizando también
-            tareas de backend para obtener y gestionar datos. Participación en
-            tareas del carrito de compra, incluyendo funcionalidades como el
-            cambio de divisas. Participación activa en múltiples tareas del
-            backlog, además de garantizar que todas las webs fueran responsive.
-          </p>
-          <ul>
-            <li>
-              <span>PHP</span>
-            </li>
-            <li>
-              <span>MySQL</span>
-            </li>
-            <li>
-              <span>Javascript</span>
-            </li>
-            <li>
-              <span>HTML</span>
-            </li>
-            <li>
-              <span>CSS</span>
-            </li>
-            <li>
-              <span>Bootstrap</span>
-            </li>
-            <li>
-              <span>JQuery</span>
-            </li>
-            <li>
-              <span>JSON</span>
-            </li>
-          </ul>
-          <p>2018-2019</p>
-          <p>ADSTORM COMMUNICATION</p>
-          <p>BECARIO</p>
-          <p>
-            Experiencia transformando mockups en sitios web funcionales
-            implementándolos en WordPress con plantillas Divi. Desarrollo
-            frontend basado en diseños proporcionados, asegurando precisión
-            visual y funcionalidad completa.
-          </p>
-          <ul>
-            <li>
-              <span>WordPress</span>
-            </li>
-            <li>
-              <span>Javascript</span>
-            </li>
-            <li>
-              <span>HTML</span>
-            </li>
-            <li>
-              <span>CSS</span>
-            </li>
-            <li>
-              <span>Bootstrap</span>
-            </li>
-            <li>
-              <span>JQuery</span>
-            </li>
-            <li>
-              <span>JSON</span>
-            </li>
-          </ul>
-        </section>
+        <Experiences />
         <section>
           <a href="https://rentari.netlify.app/" target="_blank">
             <h3>PROJECTOS</h3>

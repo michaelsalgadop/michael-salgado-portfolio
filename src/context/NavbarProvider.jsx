@@ -17,10 +17,10 @@ export function NavbarProvider({ children }) {
     () => [
       { name: "home", icon: FaHouse },
       { name: "about", icon: FaPerson },
-      { name: "education", icon: FaBook },
-      { name: "certification", icon: FaCertificate },
       { name: "experience", icon: FaBriefcase },
       { name: "web-proyects", icon: FaGlobe },
+      { name: "education", icon: FaBook },
+      { name: "certification", icon: FaCertificate },
     ],
     []
   );
