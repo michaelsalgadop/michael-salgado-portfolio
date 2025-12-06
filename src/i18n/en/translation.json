@@ -1,6 +1,8 @@
 {
+  "home": "Home",
   "about": "About me",
-  "education": "Education / Certifications",
+  "education": "Education",
+  "certification": "Certifications",
   "experience": "Experience",
   "web-proyects": "Web / Projects",
   "download-cv": "Download CV",
