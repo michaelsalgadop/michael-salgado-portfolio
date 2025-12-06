@@ -10,12 +10,15 @@ export const Option = React.memo(({ url, text, isMobile, Icon }) => {
     if (isMobile) {
       navbarContext.setOpenNavbar(false);
     }
-    scrollTo(url, 1500, isMobile ? -120 : -80); // -80 es offset opcional
+    scrollTo(url, 1500, isMobile ? -60 : -80); // -80 es offset opcional
   };
 
   return (
     <li>
-      <a onClick={handleClick} className="text-lg text-white cursor-pointer">
+      <a
+        onClick={handleClick}
+        className="flex items-center text-lg text-white cursor-pointer"
+      >
         <Icon className="mr-2" /> {text}
       </a>
     </li>

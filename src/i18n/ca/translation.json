@@ -1,6 +1,8 @@
 {
+  "home": "Inici",
   "about": "Sobre mi",
-  "education": "Educació / Certificacions",
+  "education": "Educació",
+  "certification": "Certificacions",
   "experience": "Experiència",
   "web-proyects": "Web / Projectes",
   "download-cv": "Descarregar CV",
