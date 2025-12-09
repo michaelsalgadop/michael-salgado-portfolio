@@ -6,5 +6,9 @@ export const TitleCard = React.memo(({ center, position, education }) => {
     if (education) return education;
     return "";
   }, [center, education, position]);
-  return <h4 className="tracking-tight font-bold">{title}</h4>;
+  return (
+    <h4 className="tracking-tight font-bold text-[20px] lg:text-xl xl:text-2xl mb-4">
+      {title}
+    </h4>
+  );
 });
