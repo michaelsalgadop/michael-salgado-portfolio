@@ -4,10 +4,10 @@ import { TextAbout } from "./About/TextAbout";
 export const About = () => {
   return (
     <section id="about" className="grid grid-cols-12 gap-4">
-      <div className="hidden lg:block lg:col-span-4">
+      <div className="hidden lg:block lg:col-span-4 xl:col-span-3">
         <ImgOwner />
       </div>
-      <div className="col-span-12 lg:col-span-7">
+      <div className="col-span-12 lg:col-span-8 xl:col-span-9">
         <TextAbout />
       </div>
     </section>

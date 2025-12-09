@@ -6,13 +6,14 @@ import { Header } from "../components/Layout/Header";
 import { About } from "../components/About";
 import { Jumbotron } from "../components/Jumbotron";
 import { Experiences } from "../components/Experiences";
+import { Educations } from "../components/Educations";
 export default function Layout() {
   const { openNavbar } = useContext(NavbarContext);
   return (
     <div className="bg-gray-900">
       {openNavbar && <DarkScreen />}
       <Header />
-      <main className="text-white">
+      <main className="text-white space-y-10 lg:space-y-15">
         <Jumbotron />
         <About />
         <Experiences />
@@ -30,15 +31,7 @@ export default function Layout() {
             <img src={rentariImg} alt="Imagen de la web de Rentari" />
           </a>
         </section>
-        <section>
-          <h3>FORMACIÓN ACADÉMICA</h3>
-          <p>2017-</p>
-          <p>TÉCNICO SUPERIOR DESARROLLO DE APLICACIONES WEB</p>
-          <p>IES Carles Vallbona, Granollers, Barcelona</p>
-          <p>2015-2017</p>
-          <p>TÉCNICO SISTEMAS MICROINFORMÁTICOS Y REDES</p>
-          <p>IES Carles Vallbona, Granollers, Barcelona</p>
-        </section>
+        <Educations />
         <section>
           <h3>CERTIFICACIONES</h3>
           <p>2021</p>
