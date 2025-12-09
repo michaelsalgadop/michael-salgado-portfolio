@@ -20,7 +20,6 @@ export function NavbarProvider({ children }) {
       { name: "experience", icon: FaBriefcase },
       { name: "web-proyects", icon: FaGlobe },
       { name: "education", icon: FaBook },
-      { name: "certification", icon: FaCertificate },
     ],
     []
   );

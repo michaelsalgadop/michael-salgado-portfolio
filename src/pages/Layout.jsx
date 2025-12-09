@@ -34,22 +34,6 @@ export default function Layout() {
           </section>
           <Educations />
           <section>
-            <h3>CERTIFICACIONES</h3>
-            <p>2021</p>
-            <p>
-              CODING BOOTCAMP DESARROLLADOR WEB FULL STACK JAVASCRIPT (258
-              HORAS)
-            </p>
-            <ul>
-              <li>Las TIC.</li>
-              <li>Tecnologías y diseño Web, HTML i CSS.</li>
-              <li>Algoritmos y programas. Programación Backend.</li>
-              <li>Almacenes de datos.</li>
-              <li>Interacción con el usuario. FrontEnd con ReactJS.</li>
-              <li>Proyecto. Integración FrontEnd/BackEnd.</li>
-            </ul>
-          </section>
-          <section>
             <h3>Idiomas</h3>
             <div className="progress">
               <div className="progress-bar">
