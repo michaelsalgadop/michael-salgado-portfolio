@@ -32,7 +32,7 @@ export default function Layout() {
         </section>
         <section>
           <h3>FORMACIÓN ACADÉMICA</h3>
-          <p>2017-2019</p>
+          <p>2017-</p>
           <p>TÉCNICO SUPERIOR DESARROLLO DE APLICACIONES WEB</p>
           <p>IES Carles Vallbona, Granollers, Barcelona</p>
           <p>2015-2017</p>
