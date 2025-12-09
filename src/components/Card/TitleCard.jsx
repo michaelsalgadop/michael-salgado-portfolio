@@ -1,0 +1,10 @@
+import React, { useMemo } from "react";
+
+export const TitleCard = React.memo(({ center, position, education }) => {
+  const title = useMemo(() => {
+    if (position && center) return `${position} - ${center}`;
+    if (education) return education;
+    return "";
+  }, [center, education, position]);
+  return <h4 className="tracking-tight font-bold">{title}</h4>;
+});
