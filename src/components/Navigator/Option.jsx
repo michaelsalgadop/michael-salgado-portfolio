@@ -4,7 +4,7 @@ import { NavbarContext } from "../../context/NavbarContext";
 
 export const Option = React.memo(({ url, text, isMobile, Icon }) => {
   const { scrollTo } = useNavigate();
-  const { setOpenNavbar, headerRef } = useContext(NavbarContext);
+  const { setOpenNavbar, headerRef, activeLink } = useContext(NavbarContext);
 
   const handleClick = () => {
     if (isMobile) setOpenNavbar(false);
@@ -21,7 +21,9 @@ export const Option = React.memo(({ url, text, isMobile, Icon }) => {
     <li>
       <a
         onClick={handleClick}
-        className="flex items-center text-lg text-white cursor-pointer"
+        className={`flex items-center text-lg cursor-pointer ${
+          activeLink === url ? "text-white" : "text-gray-400"
+        }`}
       >
         <Icon className="mr-2" /> {text}
       </a>
