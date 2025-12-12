@@ -3,7 +3,9 @@ import { Card } from "./Card";
 export const Experiences = () => {
   return (
     <section id="experience">
-      <h3 className="title-section">Experiencia profesional</h3>
+      <h3 className="title-section">
+        Mi<span className="text-tertiary ml-2">Experiencia</span>
+      </h3>
       <div className="grid grid-cols-12 gap-4">
         {experiences &&
           experiences.map(

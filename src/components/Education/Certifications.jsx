@@ -6,7 +6,10 @@ export const Certifications = () => {
   const { t } = useTranslation();
   return (
     <>
-      <h3 className="title-section">{t("certification")}</h3>
+      <h3 className="title-section">
+        {t("plural-mine")}
+        <span className="text-tertiary ml-2">{t("certification")}</span>
+      </h3>
       <div className="flex justify-center gap-4">
         {certifications &&
           certifications.map(

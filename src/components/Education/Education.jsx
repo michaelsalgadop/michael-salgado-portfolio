@@ -4,7 +4,9 @@ import { Card } from "../Card";
 export const Education = () => {
   return (
     <>
-      <h3 className="title-section">Formación académica</h3>
+      <h3 className="title-section">
+        Mi<span className="text-tertiary ml-2">Formación</span>
+      </h3>
       <div className="grid grid-cols-12 gap-4">
         {educations &&
           educations.map(({ date1, education, date2, ubication }, index) => (

@@ -4,7 +4,7 @@ export const ImgOwner = () => {
     <img
       src={ownerImg}
       alt="Imagen del creador en el apartado sobre mi"
-      className="width-full h-auto object-cover"
+      className="width-full h-auto object-cover rounded-lg hidden lg:inline"
     />
   );
 };
