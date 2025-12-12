@@ -4,7 +4,7 @@ export const TextAbout = () => {
   return (
     <>
       <h3 className="text-center lg:text-left text-[45px] md:text-6xl font-bold tracking-tight mb-2">
-        Sobre mi
+        Sobre<span className="text-tertiary ml-2">Mi</span>
       </h3>
       <ul className="space-y-4 mt-5">
         <AboutItem
@@ -42,6 +42,7 @@ export const TextAbout = () => {
           classText="text-about"
         />
       </ul>
+      
     </>
   );
 };

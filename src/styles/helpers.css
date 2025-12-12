@@ -8,7 +8,7 @@
   @apply lg:text-lg;
 }
 .title-section {
-  @apply text-center text-[45px] md:text-6xl font-bold tracking-tight mb-6;
+  @apply text-center text-[45px] md:text-6xl font-bold tracking-tight mb-6 flex justify-center flex-wrap;
 }
 @layer utilities {
 }
