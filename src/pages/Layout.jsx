@@ -33,41 +33,6 @@ export default function Layout() {
             </a>
           </section>
           <Educations />
-          <section>
-            <h3>Idiomas</h3>
-            <div className="progress">
-              <div className="progress-bar">
-                <span className="progress-bar-text">Nativo</span>
-              </div>
-            </div>
-            <span>Castellano</span>
-            <div>
-              <div className="progress-bar">
-                <span className="progress-bar-text">Nativo</span>
-              </div>
-            </div>
-            <span>Catalán</span>
-            <div>
-              <div className="progress-bar">
-                <span className="progress-bar-text">Profesional</span>
-              </div>
-            </div>
-            <span>Inglés</span>
-          </section>
-          <section>
-            <h3>OTROS DATOS</h3>
-            <ul>
-              <li>
-                <i></i>Incorporación immediata
-              </li>
-              <li>
-                <i></i>Disponibilidad horária completa
-              </li>
-              <li>
-                <i></i>Permiso de conducir B1
-              </li>
-            </ul>
-          </section>
         </main>
         <footer>
           <p>Trabajemos juntos! El futuro es hoy...</p>
