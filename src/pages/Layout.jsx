@@ -34,13 +34,32 @@ export default function Layout() {
           </section>
           <Educations />
         </main>
-        <footer>
-          <p>Trabajemos juntos! El futuro es hoy...</p>
-          <p>
-            Diseñado libremente con <a href="https://es.react.dev/">React</a> y
-            <a href="https://tailwindcss.com/">Tailwind CSS</a> y programado en
-            <a href="https://code.visualstudio.com/">Visual Studio Code</a> por
-            mí. Implementado con <a href="https://www.netlify.com/">Netlify</a>.
+        <footer className="p-4 text-white space-y-4 mt-20">
+          <div className="flex flex-wrap text-center justify-center">
+            <p className="text-2xl mr-1">Trabajemos juntos,</p>
+            <p className="text-2xl text-tertiary">el futuro es AHORA!</p>
+          </div>
+          <p className="text-center">
+            Diseñado libremente con
+            <a href="https://es.react.dev/" className="text-tertiary mx-1">
+              React
+            </a>
+            y
+            <a href="https://tailwindcss.com/" className="text-tertiary mx-1">
+              Tailwind CSS
+            </a>
+            y programado en
+            <a
+              href="https://code.visualstudio.com/"
+              className="text-tertiary mx-1"
+            >
+              Visual Studio Code
+            </a>
+            por mí. Implementado con
+            <a href="https://www.netlify.com/" className="text-tertiary ml-1">
+              Netlify
+            </a>
+            .
           </p>
         </footer>
       </div>

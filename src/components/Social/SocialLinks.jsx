@@ -1,7 +1,7 @@
 import {
   FaGithub,
   FaInstagram,
-  FaLinkedin,
+  FaLinkedinIn,
   FaRegEnvelope,
   FaWhatsapp,
 } from "react-icons/fa6";
@@ -18,7 +18,7 @@ export const SocialLinks = () => {
       <SocialLink href="https://github.com/michaelsalgadop" Icon={FaGithub} />
       <SocialLink
         href="https://www.linkedin.com/in/michael-salgado-perez/"
-        Icon={FaLinkedin}
+        Icon={FaLinkedinIn}
       />
       <SocialLink
         href="https://www.instagram.com/michaelsp11/"
