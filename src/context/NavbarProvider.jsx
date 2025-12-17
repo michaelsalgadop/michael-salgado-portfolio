@@ -15,7 +15,6 @@ export function NavbarProvider({ children }) {
   const headerRef = useRef();
   const sections = useMemo(
     () => [
-      { name: "home", icon: FaHouse },
       { name: "about", icon: FaPerson },
       { name: "experience", icon: FaBriefcase },
       { name: "web-proyects", icon: FaGlobe },

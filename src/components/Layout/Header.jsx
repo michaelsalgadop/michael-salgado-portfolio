@@ -5,6 +5,7 @@ import { MobileMenu } from "../Navigator/Mobile/MobileMenu";
 import { Language } from "../Navigator/Language";
 import { NavbarContext } from "../../context/NavbarContext";
 import { BtnCV } from "../BtnCV";
+import { Logo } from "../Logo";
 
 export const Header = () => {
   const { openNavbar, headerRef } = useContext(NavbarContext);
@@ -13,10 +14,16 @@ export const Header = () => {
       <nav>
         <div className="mx-auto">
           <div className="flex items-center justify-between gap-4">
+            <div className="hidden xl:block">
+              <Logo />
+            </div>
             {/* Desktop Menu */}
             <Menu />
-            {/* Mobile Button */}
-            <Hamburguer />
+            <div className="flex items-center justify-center xl:hidden">
+              {/* Mobile Button */}
+              <Hamburguer />
+              <Logo />
+            </div>
             <div className="flex items-center xl:ml-3">
               <Language />
               <BtnCV />

@@ -15,7 +15,7 @@ export const BtnCV = () => {
   return (
     <button
       type="button"
-      className="btn text-white transition-colors border-2 border-white hover:bg-white hover:text-gray-900 rounded-2xl text-sm md:text-lg"
+      className="btn text-white transition-colors border-2 border-white hover:bg-white hover:text-gray-900 rounded-2xl text-[11px] sm:text-md md:text-lg"
       onClick={downloadCV}
     >
       {t("download-cv")}
