@@ -16,7 +16,7 @@ export const Languages = ({ openMenu, setOpenMenu }) => {
     >
       <Language languageText="Español" level="C2" />
       <Language languageText="Catalán" level="C2" />
-      <Language languageText="Inglés" level="B2" />
+      <Language languageText="Inglés" level="B1" />
     </AboutDropdown>
   );
 };

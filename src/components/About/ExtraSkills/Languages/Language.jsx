@@ -2,29 +2,39 @@ import { useMemo } from "react";
 
 export const Language = ({ languageText, level }) => {
   const levelProperties = useMemo(() => {
+    const levelObject = { text: level };
     switch (level) {
       case "C2":
-        return { text: "Nativo", percentage: "100%" };
+        levelObject.percentage = "100%";
+        break;
       case "C1":
-        return { text: "Avanzado", percentage: "85%" };
+        levelObject.percentage = "90%";
+        break;
       case "B2":
-        return { text: "Profesional", percentage: "75%" };
+        levelObject.percentage = "80%";
+        break;
       case "B1":
-        return { text: "Intermedio", percentage: "50%" };
+        levelObject.percentage = "70%";
+        break;
       case "A2":
-        return { text: "Básico", percentage: "30%" };
+        levelObject.percentage = "30%";
+        break;
       case "A1":
-        return { text: "Principiante", percentage: "15%" };
+        levelObject.percentage = "15%";
+        break;
       default:
-        return { text: "Principiante", percentage: "15%" };
+        levelObject.percentage = "15%";
+        break;
     }
+    return levelObject;
   }, [level]);
   return (
     <li>
       <span className="inline-block mb-0.5">{languageText}</span>
-      <div className="h-8 width-[100%] rounded-[5px] bg-gray-900">
+      <div className="h-8 w-full rounded-[5px] bg-gray-900">
         <div
-          className={`w-[${levelProperties.percentage}] h-full bg-tertiary flex items-center transition-all duration-250 ease-linear rounded-[5px]`}
+          style={{ width: levelProperties.percentage }}
+          className="h-full bg-tertiary flex items-center transition-all duration-250 ease-linear rounded-[5px]"
         >
           <span className="ml-2.5 font-bold color-white">
             {levelProperties.text}
