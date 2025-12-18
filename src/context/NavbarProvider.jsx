@@ -16,8 +16,8 @@ export function NavbarProvider({ children }) {
   const sections = useMemo(
     () => [
       { name: "about", icon: FaPerson },
-      { name: "experience", icon: FaBriefcase },
       { name: "web-proyects", icon: FaGlobe },
+      { name: "experience", icon: FaBriefcase },
       { name: "education", icon: FaBook },
     ],
     []

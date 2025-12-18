@@ -1,4 +1,4 @@
-import { educations } from "../../data/data";
+import { educations } from "../../data/educations";
 import { Card } from "../Card";
 
 export const Education = () => {

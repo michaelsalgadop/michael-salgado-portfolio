@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { certifications } from "../../data/data";
+import { certifications } from "../../data/certifications";
 import { Card } from "../Card";
 
 export const Certifications = () => {

@@ -54,33 +54,3 @@ export const experiences = [
     ],
   },
 ];
-export const educations = [
-  {
-    date1: 2017,
-    date2: 2019,
-    education: "TÉCNICO SUPERIOR DESARROLLO DE APLICACIONES WEB",
-    ubication: "IES Carles Vallbona, Granollers, Barcelona",
-  },
-  {
-    date1: 2015,
-    date2: 2017,
-    education: "TÉCNICO SISTEMAS MICROINFORMÁTICOS Y REDES",
-    ubication: "IES Carles Vallbona, Granollers, Barcelona",
-  },
-];
-export const certifications = [
-  {
-    date1: 2021,
-    education:
-      "CODING BOOTCAMP DESARROLLADOR WEB FULL STACK JAVASCRIPT (258 HORAS)",
-    concepts: [
-      "Las TIC.",
-      "Tecnologías y diseño Web, HTML i CSS.",
-      "Algoritmos y programas. Programación Backend.",
-      "Almacenes de datos.",
-      "Interacción con el usuario. FrontEnd con ReactJS.",
-      "Proyecto. Integración FrontEnd / BackEnd.",
-    ],
-    ubication: "Fundació Esplai, Barcelona",
-  },
-];

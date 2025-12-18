@@ -3,7 +3,7 @@
   "education": "Education",
   "certification": "Certifications",
   "experience": "Experience",
-  "web-proyects": "Web / Projects",
+  "web-proyects": "Projects",
   "download-cv": "Download CV",
   "tittle-page": "Expert developer",
   "flag": "Flag of",
@@ -12,5 +12,6 @@
   "about-me-p-2": "I have worked with relational (MySQL) and non-relational (MongoDB) databases, and I have experience using Git for version control.",
   "about-me-p-3": "I apply best practices in layout, code structure, and performance optimization, always striving to make the code clean, readable, and maintainable.",
   "mine": "My",
-  "plural-mine": "My"
+  "plural-mine": "My",
+  "plural-mine-male": "My"
 }
