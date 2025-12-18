@@ -3,7 +3,7 @@
   "education": "Formació",
   "certification": "Certificacions",
   "experience": "Experiència",
-  "web-proyects": "Web / Projectes",
+  "web-proyects": "Projectes",
   "download-cv": "Descarregar CV",
   "tittle-page": "Desenvolupador expert en",
   "flag": "Bandera de",
@@ -12,5 +12,6 @@
   "about-me-p-2": "He treballat amb bases de dades relacionals (MySQL) i no relacionals (MongoDB), i tinc experiència en l'ús de Git per a control de versions.",
   "about-me-p-3": "Aplico bones pràctiques en maquetació, estructura del codi i optimització del rendiment, buscant sempre que el codi sigui net, llegible i mantenible.",
   "mine": "La Meva",
-  "plural-mine": "Les Meves"
+  "plural-mine": "Les Meves",
+  "plural-mine-male": "Els Meus"
 }
