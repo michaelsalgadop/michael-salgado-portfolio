@@ -24,7 +24,13 @@ export const Card = (props) => {
       {ubication && <UbicationCard ubication={ubication} />}
       {concepts?.length > 0 && <ConceptsCard concepts={concepts} />}
       {text && <BodyCard text={text} />}
-      {stack?.length > 0 && <Tecnologies stack={stack} />}
+      {stack?.length > 0 && (
+        <Tecnologies
+          stack={stack}
+          classesItems="flex gap-4 flex-wrap mt-4"
+          classesPerItem="p-2 bg-tertiary rounded-xl"
+        />
+      )}
     </article>
   );
 };

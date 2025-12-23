@@ -1,5 +1,6 @@
 import { ImageJumbotron } from "./Jumbotron/ImageJumbotron";
 import { TitlePage } from "./Jumbotron/TitlePage";
+import { Logo } from "./Logo";
 export const Jumbotron = () => {
   return (
     <section className="relative grid grid-cols-12 gap-4 min-h-150" id="home">
