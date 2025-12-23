@@ -1,9 +1,11 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { useNavigate } from "../hooks/useNavigate";
 import { NavbarContext } from "../context/NavbarContext";
 export const Logo = () => {
   const { scrollTo } = useNavigate();
   const { setOpenNavbar, headerRef } = useContext(NavbarContext);
+  const [loaded, setLoaded] = useState(false);
+
   const handleClick = () => {
     setOpenNavbar(false);
     scrollTo("home", 1500, -headerRef.current.offsetHeight);
@@ -17,7 +19,10 @@ export const Logo = () => {
         src="./logo.png"
         alt="Logo de la web"
         title="logo"
-        className="h-10 md:h-12 w-auto object-cover"
+        onLoad={() => setLoaded(true)}
+        className={`h-10 md:h-12 w-auto object-cover transition-opacity duration-500 ease-out ${
+          loaded ? "opacity-100" : "opacity-0"
+        }`}
       />
     </a>
   );
