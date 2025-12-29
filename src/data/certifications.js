@@ -1,8 +1,7 @@
 export const certifications = [
   {
     date1: 2021,
-    education:
-      "CODING BOOTCAMP DESARROLLADOR WEB FULL STACK JAVASCRIPT (258 HORAS)",
+    education: "CODING BOOTCAMP DESARROLLADOR WEB FULL STACK JAVASCRIPT",
     concepts: [
       "Las TIC.",
       "Tecnologías y diseño Web, HTML i CSS.",

@@ -16,7 +16,7 @@ export const projects = [
     url: "https://rentari.netlify.app",
   },
   {
-    nameProject: "GitHub",
+    nameProject: "Mi GitHub",
     date1: new Date().getFullYear(),
     text: "Todos mis diseños y proyectos actuales y a futuro están aquí!",
     img: "/projects/github.webp",
