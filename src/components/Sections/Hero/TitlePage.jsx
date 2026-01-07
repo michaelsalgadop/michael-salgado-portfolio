@@ -1,4 +1,4 @@
-import { SocialLinks } from "../../Social/SocialLinks";
+import { SocialLinks } from "../../UI/Social/SocialLinks";
 
 export const TitlePage = () => {
   return (

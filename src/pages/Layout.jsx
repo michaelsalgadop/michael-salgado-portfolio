@@ -3,7 +3,7 @@ import { NavbarContext } from "../context/NavbarContext";
 import { DarkScreen } from "../components/DarkScreen";
 import { Header } from "../components/Layout/Header";
 import { Hero } from "../components/Sections/Hero/Hero";
-import { About } from "../components/About";
+import { About } from "../components/Sections/About/About";
 import { Experiences } from "../components/Experiences";
 import { Educations } from "../components/Educations";
 import { Projects } from "../components/Projects";

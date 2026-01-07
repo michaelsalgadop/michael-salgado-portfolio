@@ -1,4 +1,4 @@
-import { TitleSection } from "../UI/TitleSection";
+import { TitleSection } from "../../UI/TitleSection";
 import { AboutItem } from "./AboutItem";
 import { Introduction } from "./Introduction";
 
