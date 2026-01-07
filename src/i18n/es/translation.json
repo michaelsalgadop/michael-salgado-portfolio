@@ -13,5 +13,8 @@
   "about-me-p-3": "Aplico buenas prácticas en maquetación, estructura del código y optimización del rendimiento, buscando siempre que el código sea limpio, legible y mantenible.",
   "mine": "Mi",
   "plural-mine": "Mis",
-  "plural-mine-male": "Mis"
+  "plural-mine-male": "Mis",
+  "web-logo": "Logo de la web",
+  "author-image-about-me-section": "Imagen del autor en el apartado sobre mi",
+  "author-image-hero-section": "Foto del autor del portfolio"
 }

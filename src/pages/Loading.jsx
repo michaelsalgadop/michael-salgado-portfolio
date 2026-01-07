@@ -1,11 +1,23 @@
+import { useState } from "react";
 import { Logo } from "../components/Logo";
+import { Loader } from "../components/Loader";
 
 export const Loading = () => {
+  const [loadedLogo, setLoadedLogo] = useState(false);
   return (
-    <div className="bg-gray-900 text-white h-dvh flex justify-center items-center">
-      <div className="bg-gray-900 w-20 h-20 rounded-full flex justify-center items-center relative">
-        <Logo />
-        <div className="w-30 h-30 border-10 border-gray-900 border-l-tertiary border-t-tertiary border-b-tertiary rounded-full animate-spin absolute"></div>
+    <div
+      role="status"
+      aria-busy="true"
+      className="bg-gray-900 text-white min-h-screen flex justify-center items-center flex-col space-y-12"
+      style={{ height: "100dvh" }}
+    >
+      <div className="bg-gray-900 size-45 md:size-50 rounded-full flex justify-center items-center relative">
+        <Logo
+          isLogoSmall={false}
+          loadedLogo={loadedLogo}
+          setLoadedLogo={setLoadedLogo}
+        />
+        <Loader loadedLogo={loadedLogo} />
       </div>
     </div>
   );

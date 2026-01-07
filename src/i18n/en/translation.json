@@ -13,5 +13,8 @@
   "about-me-p-3": "I apply best practices in layout, code structure, and performance optimization, always striving to make the code clean, readable, and maintainable.",
   "mine": "My",
   "plural-mine": "My",
-  "plural-mine-male": "My"
+  "plural-mine-male": "My",
+  "web-logo": "Website logo",
+  "author-image-about-me-section": "Author image in the \"About me\" section",
+  "author-image-hero-section": "Photo of the portfolio author"
 }

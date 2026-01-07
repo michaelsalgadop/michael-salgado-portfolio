@@ -1,0 +1,9 @@
+.logo-web {
+  @apply w-auto object-cover transition-opacity duration-500 ease-out;
+}
+.logo-small {
+  @apply h-10 md:h-12;
+}
+.logo-big {
+  @apply h-30 md:h-35;
+}

@@ -1,11 +1,14 @@
 import { experiences } from "../data/experiences";
 import { Card } from "./Card";
+import { TitleSection } from "./UI/TitleSection";
 export const Experiences = () => {
   return (
     <section id="experience">
-      <h3 className="title-section">
-        Mi<span className="text-tertiary ml-2">Experiencia</span>
-      </h3>
+      <TitleSection
+        classTitle="title-section"
+        titleWithoutHighlighting="Mi"
+        titleHighlighting="Experiencia"
+      />
       <div className="grid grid-cols-12 gap-4">
         {experiences &&
           experiences.map(

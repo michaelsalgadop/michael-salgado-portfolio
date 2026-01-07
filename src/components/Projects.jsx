@@ -1,14 +1,16 @@
 import { useTranslation } from "react-i18next";
 import { projects } from "../data/projects";
 import { Project } from "./Project/Project";
+import { TitleSection } from "./UI/TitleSection";
 export const Projects = () => {
   const { t } = useTranslation();
   return (
     <section id="web-proyects">
-      <h3 className="title-section">
-        {t("plural-mine-male")}
-        <span className="text-tertiary ml-2">{t("web-proyects")}</span>
-      </h3>
+      <TitleSection
+        classTitle="title-section"
+        titleWithoutHighlighting={t("plural-mine-male")}
+        titleHighlighting={t("web-proyects")}
+      />
       <div className="flex flex-wrap justify-center gap-4">
         {projects.map(
           ({ nameProject, date1, text, img, stack, url }, index) => (
