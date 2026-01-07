@@ -1,9 +1,9 @@
-import { BodyCard } from "./Card/BodyCard";
-import { ConceptsCard } from "./Card/ConceptsCard";
-import { DateCard } from "./Card/DateCard";
-import { Tecnologies } from "./Card/Tecnologies";
-import { TitleCard } from "./Card/TitleCard";
-import { UbicationCard } from "./Card/UbicationCard";
+import { BodyCard } from "./BodyCard";
+import { ConceptsCard } from "./ConceptsCard";
+import { DateCard } from "./DateCard";
+import { Tecnologies } from "./Tecnologies";
+import { TitleCard } from "./TitleCard";
+import { UbicationCard } from "./UbicationCard";
 
 export const Card = (props) => {
   const {

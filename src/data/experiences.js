@@ -2,7 +2,7 @@ export const experiences = [
   {
     date1: 2021,
     date2: 2024,
-    position: "PROGRAMADOR JUNIOR",
+    position: "WEB DEVELOPER",
     work: "ALEMANY INFORMATICA S.L.",
     text: `Experiencia trabajando con JSP, desarrollando funcionalidades
             multilenguaje mediante archivos de idioma y aplicando medidas de
@@ -25,7 +25,7 @@ export const experiences = [
   },
   {
     date1: 2020,
-    position: "PROGRAMADOR JUNIOR",
+    position: "WEB DEVELOPER",
     work: "MASKOKOTAS",
     text: `Experiencia enfocado en la parte frontend, y realizando también
             tareas de backend para obtener y gestionar datos. Participación en
@@ -37,7 +37,7 @@ export const experiences = [
   {
     date1: 2018,
     date2: 2019,
-    position: "BECARIO",
+    position: "WEB DEVELOPER",
     work: "ADSTORM COMMUNICATION",
     text: `Experiencia transformando mockups en sitios web funcionales
             implementándolos en WordPress con plantillas Divi. Desarrollo
