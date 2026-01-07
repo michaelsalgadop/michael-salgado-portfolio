@@ -1,6 +1,6 @@
-import { AboutExtraSkills } from "./About/AboutExtraSkills";
-import { ImgOwner } from "./About/ImgOwner";
-import { TextAbout } from "./About/TextAbout";
+import { AboutExtraSkills } from "./AboutExtraSkills";
+import { ImgOwner } from "./ImgOwner";
+import { TextAbout } from "./TextAbout";
 
 export const About = () => {
   return (
