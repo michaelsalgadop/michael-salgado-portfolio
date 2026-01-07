@@ -1,4 +1,4 @@
-import { Tecnologies } from "../Card/Tecnologies";
+import { Tecnologies } from "../UI/Card/Tecnologies";
 
 export const ProjectContent = ({ name, date1, text, stack, url }) => {
   return (

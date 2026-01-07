@@ -1,5 +1,5 @@
 import { experiences } from "../data/experiences";
-import { Card } from "./Card";
+import { Card } from "./UI/Card/Card";
 import { TitleSection } from "./UI/TitleSection";
 export const Experiences = () => {
   return (
