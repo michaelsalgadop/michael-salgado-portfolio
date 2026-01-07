@@ -1,5 +1,5 @@
-import { ImageHero } from "./Hero/ImageHero";
-import { TitlePage } from "./Hero/TitlePage";
+import { ImageHero } from "./ImageHero";
+import { TitlePage } from "./TitlePage";
 export const Hero = () => {
   return (
     <section className="relative grid grid-cols-12 gap-4 min-h-150" id="home">
