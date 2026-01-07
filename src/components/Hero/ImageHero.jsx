@@ -1,4 +1,4 @@
-export const ImageJumbotron = () => {
+export const ImageHero = () => {
   return (
     <img
       src="/owner/michael-salgado.jpg"

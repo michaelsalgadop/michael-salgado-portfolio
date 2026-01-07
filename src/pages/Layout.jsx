@@ -3,7 +3,7 @@ import { NavbarContext } from "../context/NavbarContext";
 import { DarkScreen } from "../components/DarkScreen";
 import { Header } from "../components/Layout/Header";
 import { About } from "../components/About";
-import { Jumbotron } from "../components/Jumbotron";
+import { Hero } from "../components/Hero";
 import { Experiences } from "../components/Experiences";
 import { Educations } from "../components/Educations";
 import { Projects } from "../components/Projects";
@@ -15,7 +15,7 @@ export default function Layout() {
       <div className="mx-auto min-h-screen max-w-7xl">
         <Header />
         <main className="text-white space-y-10 lg:space-y-15">
-          <Jumbotron />
+          <Hero />
           <About />
           <Projects />
           <Experiences />
