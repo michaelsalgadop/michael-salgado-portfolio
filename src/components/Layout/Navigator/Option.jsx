@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { useNavigate } from "../../hooks/useNavigate";
-import { NavbarContext } from "../../context/NavbarContext";
+import { useNavigate } from "../../../hooks/useNavigate";
+import { NavbarContext } from "../../../context/NavbarContext";
 
 export const Option = React.memo(({ url, text, isMobile, Icon }) => {
   const { scrollTo } = useNavigate();

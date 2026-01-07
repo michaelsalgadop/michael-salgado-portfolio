@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { NavbarContext } from "../../../context/NavbarContext";
+import { NavbarContext } from "../../../../context/NavbarContext";
 
 export const Hamburguer = () => {
   const { openNavbar, setOpenNavbar } = useContext(NavbarContext);

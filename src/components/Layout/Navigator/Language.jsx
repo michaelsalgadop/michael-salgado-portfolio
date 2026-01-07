@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { languages as lang } from "../../i18n/languages.json";
+import { languages as lang } from "../../../i18n/languages.json";
 
 import { LanguageButton } from "./LanguageButton";
 import { LanguageDropdown } from "./LanguageDropdown";

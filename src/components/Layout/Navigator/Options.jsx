@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Option } from "./Option";
 import { useContext, useEffect } from "react";
-import { NavbarContext } from "../../context/NavbarContext";
-import { useObserverNavbar } from "../../hooks/useObserverNavbar";
+import { NavbarContext } from "../../../context/NavbarContext";
+import { useObserverNavbar } from "../../../hooks/useObserverNavbar";
 
 export const Options = ({ isMobile = true }) => {
   const { t } = useTranslation();

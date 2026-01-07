@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { Menu } from "../Navigator/Desktop/Menu";
-import { Hamburguer } from "../Navigator/Mobile/Hamburguer";
-import { MobileMenu } from "../Navigator/Mobile/MobileMenu";
-import { Language } from "../Navigator/Language";
+import { Menu } from "./Navigator/Desktop/Menu";
+import { Hamburguer } from "./Navigator/Mobile/Hamburguer";
+import { MobileMenu } from "./Navigator/Mobile/MobileMenu";
+import { Language } from "./Navigator/Language";
 import { NavbarContext } from "../../context/NavbarContext";
 import { BtnCV } from "../BtnCV";
 import { Logo } from "../Logo";
