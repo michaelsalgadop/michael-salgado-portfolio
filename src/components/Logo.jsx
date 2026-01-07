@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { useNavigate } from "../hooks/useNavigate";
 import { NavbarContext } from "../context/NavbarContext";
+import { useTranslation } from "react-i18next";
 export const Logo = ({
   isLogoSmall = true,
   loadedLogo = true,
@@ -8,6 +9,7 @@ export const Logo = ({
 }) => {
   const { scrollTo } = useNavigate();
   const { setOpenNavbar, headerRef } = useContext(NavbarContext);
+  const { t } = useTranslation();
 
   const handleClick = () => {
     setOpenNavbar(false);
@@ -17,8 +19,8 @@ export const Logo = ({
     <a onClick={handleClick} className="cursor-pointer">
       <img
         src="./logo.png"
-        alt="Logo de la web"
-        title="logo"
+        alt={t("web-logo")}
+        title={t("web-logo")}
         onLoad={() => {
           if (setLoadedLogo) setLoadedLogo(true);
         }}
