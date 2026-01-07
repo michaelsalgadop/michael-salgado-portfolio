@@ -1,4 +1,7 @@
-.title-about {
+.title-section-about {
+  @apply text-center lg:text-left text-[35px] font-bold tracking-tight mb-2;
+}
+.title-item-about {
   @apply relative text-[25px] mb-2 font-semibold after:content-[''] after:block after:h-1 after:bg-tertiary after:-mt-1.5;
 }
 .text-about {
