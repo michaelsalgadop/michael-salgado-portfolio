@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
-
-export const ImageJumbotron = () => {
+export const ImageHero = () => {
   const { t } = useTranslation();
   return (
     <img
