@@ -1,29 +1,9 @@
 .btn {
   @apply py-2 px-4 cursor-pointer;
 }
-.title-about {
-  @apply relative text-[25px] mb-2 font-semibold after:content-[''] after:block after:h-1 after:bg-tertiary after:-mt-1.5;
-}
-.text-about {
-  @apply lg:text-lg;
-}
 .title-section {
   @apply text-center text-[35px] font-bold tracking-tight mb-6 flex justify-center flex-wrap;
 }
-.dropdown-menu-about {
-  @apply absolute top-[65px] z-2 min-w-[250px] md:min-w-[300px] bg-secondary border border-tertiary p-4 rounded-md transition transition-discrete data-[state=closed]:scale-0 data-[state=closed]:transform data-[state=closed]:opacity-0 data-[state=open]:duration-100 data-[state=open]:ease-out data-[state=closed]:duration-75 data-[state=closed]:ease-in;
-}
-.text-important-about {
-  @apply ml-1 font-bold text-white;
-}
-.logo-web {
-  @apply w-auto object-cover transition-opacity duration-500 ease-out;
-}
-.logo-small {
-  @apply h-10 md:h-12;
-}
-.logo-big {
-  @apply h-30 md:h-35;
-}
+
 @layer utilities {
 }

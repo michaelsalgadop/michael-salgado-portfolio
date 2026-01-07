@@ -13,5 +13,8 @@
   "about-me-p-3": "Aplico bones pràctiques en maquetació, estructura del codi i optimització del rendiment, buscant sempre que el codi sigui net, llegible i mantenible.",
   "mine": "La Meva",
   "plural-mine": "Les Meves",
-  "plural-mine-male": "Els Meus"
+  "plural-mine-male": "Els Meus",
+  "web-logo": "Logo de la web",
+  "author-image-about-me-section": "Imatge de l'autor a l’apartat \"Sobre mi\"",
+  "author-image-hero-section": "Foto de l'autor del portfolio"
 }
