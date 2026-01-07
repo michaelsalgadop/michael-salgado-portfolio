@@ -4,9 +4,9 @@ import { DarkScreen } from "../components/DarkScreen";
 import { Header } from "../components/Layout/Header";
 import { Hero } from "../components/Sections/Hero/Hero";
 import { About } from "../components/Sections/About/About";
+import { Projects } from "../components/Sections/Project/Projects";
 import { Experiences } from "../components/Experiences";
 import { Educations } from "../components/Educations";
-import { Projects } from "../components/Projects";
 import { Footer } from "../components/Footer";
 export default function Layout() {
   const { openNavbar } = useContext(NavbarContext);

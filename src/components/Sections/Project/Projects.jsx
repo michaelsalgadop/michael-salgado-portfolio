@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { projects } from "../data/projects";
-import { Project } from "./Project/Project";
-import { TitleSection } from "./UI/TitleSection";
+import { projects } from "../../../data/projects";
+import { Project } from "./Project";
+import { TitleSection } from "../../UI/TitleSection";
 export const Projects = () => {
   const { t } = useTranslation();
   return (
