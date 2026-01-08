@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Logo } from "../components/Logo";
+import { Logo } from "../components/UI/Logo";
 import { Loader } from "../components/Loader";
 
 export const Loading = () => {

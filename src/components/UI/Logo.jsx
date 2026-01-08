@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { useNavigate } from "../hooks/useNavigate";
-import { NavbarContext } from "../context/NavbarContext";
+import { useNavigate } from "../../hooks/useNavigate";
+import { NavbarContext } from "../../context/NavbarContext";
 import { useTranslation } from "react-i18next";
 export const Logo = ({
   isLogoSmall = true,
