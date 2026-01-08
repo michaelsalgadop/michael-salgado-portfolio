@@ -1,6 +1,6 @@
-import { educations } from "../../data/educations";
-import { Card } from "../UI/Card/Card";
-import { TitleSection } from "../UI/TitleSection";
+import { educations } from "../../../data/educations";
+import { Card } from "../../UI/Card/Card";
+import { TitleSection } from "../../UI/TitleSection";
 
 export const Education = () => {
   return (

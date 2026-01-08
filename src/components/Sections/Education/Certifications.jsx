@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { certifications } from "../../data/certifications";
-import { Card } from "../UI/Card/Card";
-import { TitleSection } from "../UI/TitleSection";
+import { certifications } from "../../../data/certifications";
+import { Card } from "../../UI/Card/Card";
+import { TitleSection } from "../../UI/TitleSection";
 
 export const Certifications = () => {
   const { t } = useTranslation();
