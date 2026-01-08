@@ -16,5 +16,8 @@
   "plural-mine-male": "Mis",
   "web-logo": "Logo de la web",
   "author-image-about-me-section": "Imagen del autor en el apartado sobre mi",
-  "author-image-hero-section": "Foto del autor del portfolio"
+  "author-image-hero-section": "Foto del autor del portfolio",
+  "footer": {
+    "designed": "Diseñado libremente con <react>React</react> y <tailwind>Tailwind CSS</tailwind> y programado en <vscode>Visual Studio Code</vscode> por mí. Implementado con <netlify>Netlify</netlify>."
+  }
 }
