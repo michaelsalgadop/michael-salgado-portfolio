@@ -1,5 +1,5 @@
-import { Education } from "./Education/Education";
-import { Certifications } from "./Education/Certifications";
+import { Education } from "./Education";
+import { Certifications } from "./Certifications";
 export const Educations = () => {
   return (
     <section id="education" className="space-y-15">

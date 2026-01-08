@@ -6,7 +6,7 @@ import { Hero } from "../components/Sections/Hero/Hero";
 import { About } from "../components/Sections/About/About";
 import { Projects } from "../components/Sections/Project/Projects";
 import { Experiences } from "../components/Sections/Experience/Experiences";
-import { Educations } from "../components/Educations";
+import { Educations } from "../components/Sections/Education/Educations";
 import { Footer } from "../components/Footer";
 export default function Layout() {
   const { openNavbar } = useContext(NavbarContext);
