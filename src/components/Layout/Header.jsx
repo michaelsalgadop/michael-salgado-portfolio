@@ -5,7 +5,7 @@ import { MobileMenu } from "./Navigator/Mobile/MobileMenu";
 import { Language } from "./Navigator/Language";
 import { NavbarContext } from "../../context/NavbarContext";
 import { BtnCV } from "../BtnCV";
-import { Logo } from "../Logo";
+import { Logo } from "../UI/Logo";
 
 export const Header = () => {
   const { openNavbar, headerRef } = useContext(NavbarContext);
