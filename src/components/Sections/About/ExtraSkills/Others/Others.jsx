@@ -8,7 +8,7 @@ export const Others = ({ openMenu, setOpenMenu }) => {
       id="others"
       openMenu={openMenu}
       setOpenMenu={setOpenMenu}
-      collapseDropdown={true}
+      collapseDropdown
       buttonProps={{
         textBtn: "Otros",
         Icon: FaEllipsis,

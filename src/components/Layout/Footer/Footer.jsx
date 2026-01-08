@@ -1,5 +1,5 @@
-import { Collaborate } from "./Footer/Collaborate";
-import { Designed } from "./Footer/Designed";
+import { Collaborate } from "./Collaborate";
+import { Designed } from "./Designed";
 
 export const Footer = () => {
   return (
