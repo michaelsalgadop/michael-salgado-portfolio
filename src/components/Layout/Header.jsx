@@ -4,7 +4,7 @@ import { Hamburguer } from "./Navigator/Mobile/Hamburguer";
 import { MobileMenu } from "./Navigator/Mobile/MobileMenu";
 import { Language } from "./Navigator/Language";
 import { NavbarContext } from "../../context/NavbarContext";
-import { BtnCV } from "../BtnCV";
+import { BtnCV } from "../UI/BtnCV";
 import { Logo } from "../UI/Logo";
 
 export const Header = () => {

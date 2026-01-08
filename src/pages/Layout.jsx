@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { NavbarContext } from "../context/NavbarContext";
-import { DarkScreen } from "../components/DarkScreen";
+import { DarkScreen } from "../components/UI/DarkScreen";
 import { Header } from "../components/Layout/Header";
 import { Hero } from "../components/Sections/Hero/Hero";
 import { About } from "../components/Sections/About/About";
