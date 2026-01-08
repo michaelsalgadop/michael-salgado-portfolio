@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Logo } from "../components/UI/Logo";
-import { Loader } from "../components/Loader";
+import { Loader } from "../components/UI/Loader";
 
 export const Loading = () => {
   const [loadedLogo, setLoadedLogo] = useState(false);
