@@ -19,5 +19,22 @@
   "author-image-hero-section": "Foto del autor del portfolio",
   "footer": {
     "designed": "Diseñado libremente con <react>React</react> y <tailwind>Tailwind CSS</tailwind> y programado en <vscode>Visual Studio Code</vscode> por mí. Implementado con <netlify>Netlify</netlify>."
+  },
+  "work-together": "Trabajemos juntos",
+  "future-now": "el futuro es AHORA!",
+  "img-web": "Imagen de la web",
+  "frase-hero": "Experto en interfaces a medida y gestión avanzada de datos",
+  "about-section": {
+    "introduction": "Soy un desarrollador con casi<important-sentence-1>4 años de experiencia</important-sentence-1>experto en crear<important-sentence-2>diseños únicos, demandados o a medida de cada cliente / empresa</important-sentence-2>. Diseño y desarrollo<important-sentence-3>APIs REST robustas con CRUD completo. Manejo y manipulación de todo tipo de datos y autenticaciones seguras</important-sentence-3>. Me defino como:",
+    "title-part-1": "Sobre",
+    "title-part-2": "Mi",
+    "problem-solving": "Resolutivo",
+    "problem-solving-text": "Aporto nuevas ideas y soluciones a cualquier circunstancia y me enfoco en las necesidades del cliente.",
+    "responsible": "Responsable",
+    "responsible-text": "Concienciado en cuidar cada detalle, cada pixel importa.",
+    "consistent": "Constante",
+    "consistent-text": "Cada objetivo debe cumplirse en la fecha o evento acordado.",
+    "collaborative": "Colaborativo",
+    "collaborative-text": "Una barca no se mueve por un solo navegante. Rememos juntos en una misma dirección."
   }
 }
