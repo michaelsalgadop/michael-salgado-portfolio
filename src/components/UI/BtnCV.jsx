@@ -2,6 +2,10 @@ import { useTranslation } from "react-i18next";
 
 export const BtnCV = () => {
   const { t } = useTranslation();
+  /**
+   *  Método para descargar un archivo, en este caso el CV.
+   * @param {Element} e Elemento que es el boton que en este caso lo preventDefaulteamos
+   */
   const downloadCV = (e) => {
     e.preventDefault();
     const pdfUrl = "CV_Salgado_Perez_Michael.pdf";

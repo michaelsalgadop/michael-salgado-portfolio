@@ -89,3 +89,32 @@ Ejemplo:
 De esta forma, cuando cambie el language de i18n por medio del desplegable de idiomas,
 este componente que contiene el Trans se re-renderizará, dando resultado a la traducción
 esperada.
+
+Otro ejemplo, pero ahora con spans, texto:
+Soy un desarrollador con casi <span className="text-important-about mr-1">4 años de experiencia</span> experto en crear <span className="text-important-about mr-1"> diseños únicos, demandados o a medida de cada cliente / empresa </span> . Diseño y desarrollo <span className="text-important-about mr-1"> APIs REST robustas con CRUD completo. Manejo y manipulación de todo tipo de datos y autenticaciones seguras </span> . Me defino como:
+
+En el archivo de cada traducción:
+"about-section": {
+"introduction": "Soy un desarrollador con casi <important-sentence-1>4 años de experiencia</important-sentence-1> experto en crear <important-sentence-2>diseños únicos, demandados o a medida de cada cliente / empresa</important-sentence-2>. Diseño y desarrollo <important-sentence-3>APIs REST robustas con CRUD completo. Manejo y manipulación de todo tipo de datos y autenticaciones seguras</important-sentence-3>. Me defino como:"
+}
+
+En el jsx que ira la traducción:
+
+{/_Traducción de la clave about-section.introduction, con las referencias de tags(ej: important-sentence-1) y que tag(en este caso el <span>) toca en cada referencia. _/}
+<Trans
+i18nKey="about-section.introduction"
+components={{
+          "important-sentence-1": (
+            <span className="text-important-about mr-1" />
+          ),
+          "important-sentence-2": (
+            <span className="text-important-about mr-1" />
+          ),
+          "important-sentence-3": (
+            <span className="text-important-about mr-1" />
+          ),
+          "important-sentence-4": (
+            <span className="text-important-about mr-1" />
+          ),
+        }}
+/>
