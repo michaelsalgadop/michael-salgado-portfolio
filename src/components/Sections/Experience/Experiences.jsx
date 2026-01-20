@@ -19,7 +19,7 @@ export const Experiences = () => {
                 key={index}
                 date1={date1}
                 center={center}
-                text={text}
+                text={t(text)}
                 date2={date2}
                 position={position}
                 stack={stack}

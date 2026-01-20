@@ -19,7 +19,7 @@ export const Certifications = () => {
               <Card
                 key={index}
                 date1={date1}
-                education={education}
+                education={t(education)}
                 ubication={ubication}
                 concepts={concepts}
               />

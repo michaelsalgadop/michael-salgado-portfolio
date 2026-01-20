@@ -44,5 +44,42 @@
   "lang-esp": "Spanish",
   "lang-ca": "Catalan",
   "lang-en": "English",
-  "others": "Others"
+  "others": "Others",
+  "projects-section": {
+    "rentari": {
+      "text": "Vehicle leasing for companies and individuals, easy, secure, and 100% digital."
+    },
+    "github": {
+      "text": "All my current and future designs and projects are here!"
+    },
+    "visit": "Visit"
+  },
+  "experience-section": {
+    "alemany": {
+      "text": "Experience working with JSP files and Java, applying security measures on variables as well as in JSP files. Developing multilingual functionalities using language files. Daily professional handling of JavaScript, HTML, CSS, Bootstrap, jQuery, and JSON. Active participation in multiple backlog tasks, including queries and maintenance in PostgreSQL, as well as ensuring all websites were responsive and scroll-free."
+    },
+    "maskokotas": {
+      "text": "Experience focused on the frontend, also performing backend tasks to retrieve and manage data. Participation in shopping cart tasks, including features such as currency conversion. Active participation in multiple backlog tasks, as well as ensuring all websites were responsive."
+    },
+    "adstorm": {
+      "text": "Experience converting mockups into functional websites by implementing them in WordPress using Divi templates. Frontend development based on provided designs, ensuring visual accuracy and full functionality."
+    }
+  },
+  "education-section": {
+    "CFGS": "HIGHER TECHNICIAN IN WEB APPLICATION DEVELOPMENT",
+    "CFGM": "TECHNICIAN IN MICROCOMPUTER SYSTEMS AND NETWORKS"
+  },
+  "certification-section": {
+    "cert-2021": {
+      "title": "CODING BOOTCAMP FULL STACK JAVASCRIPT WEB DEVELOPER",
+      "concepts": {
+        "concept-1": "ICT (Information and Communication Technologies).",
+        "concept-2": "Web technologies and design, HTML and CSS.",
+        "concept-3": "Algorithms and programs. Backend programming.",
+        "concept-4": "Data storage.",
+        "concept-5": "User interaction. FrontEnd with ReactJS.",
+        "concept-6": "Project. FrontEnd / BackEnd integration."
+      }
+    }
+  }
 }
