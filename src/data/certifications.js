@@ -1,14 +1,14 @@
 export const certifications = [
   {
     date1: 2021,
-    education: "CODING BOOTCAMP DESARROLLADOR WEB FULL STACK JAVASCRIPT",
+    education: "certification-section.cert-2021.title",
     concepts: [
-      "Las TIC.",
-      "Tecnologías y diseño Web, HTML i CSS.",
-      "Algoritmos y programas. Programación Backend.",
-      "Almacenes de datos.",
-      "Interacción con el usuario. FrontEnd con ReactJS.",
-      "Proyecto. Integración FrontEnd / BackEnd.",
+      "certification-section.cert-2021.concepts.concept-1",
+      "certification-section.cert-2021.concepts.concept-2",
+      "certification-section.cert-2021.concepts.concept-3",
+      "certification-section.cert-2021.concepts.concept-4",
+      "certification-section.cert-2021.concepts.concept-5",
+      "certification-section.cert-2021.concepts.concept-6",
     ],
     ubication: "Fundació Esplai, Barcelona",
   },

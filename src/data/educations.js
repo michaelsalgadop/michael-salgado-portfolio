@@ -2,13 +2,13 @@ export const educations = [
   {
     date1: 2017,
     date2: 2019,
-    education: "TÉCNICO SUPERIOR DESARROLLO DE APLICACIONES WEB",
+    education: "education-section.CFGS",
     ubication: "IES Carles Vallbona, Granollers, Barcelona",
   },
   {
     date1: 2015,
     date2: 2017,
-    education: "TÉCNICO SISTEMAS MICROINFORMÁTICOS Y REDES",
+    education: "education-section.CFGM",
     ubication: "IES Carles Vallbona, Granollers, Barcelona",
   },
 ];

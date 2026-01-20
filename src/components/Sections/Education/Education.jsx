@@ -18,7 +18,7 @@ export const Education = () => {
             <Card
               key={index}
               date1={date1}
-              education={education}
+              education={t(education)}
               ubication={ubication}
               date2={date2}
             />

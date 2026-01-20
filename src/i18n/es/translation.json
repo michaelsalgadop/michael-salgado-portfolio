@@ -44,5 +44,42 @@
   "lang-esp": "Castellano",
   "lang-ca": "Catalán",
   "lang-en": "Inglés",
-  "others": "Otros"
+  "others": "Otros",
+  "projects-section": {
+    "rentari": {
+      "text": "Renting de vehículos para empresas y particulares, fácil, seguro y 100% digital."
+    },
+    "github": {
+      "text": "Todos mis diseños y proyectos actuales y a futuro están aquí!"
+    },
+    "visit": "Visitar"
+  },
+  "experience-section": {
+    "alemany": {
+      "text": "Experiencia trabajando con archivos JSP y Java, aplicando medidas de seguridad en variables así como en los archivos JSP. Desarrollo de funcionalidades multilenguaje mediante archivos de idioma. Manejo profesional diario de JavaScript, HTML, CSS, Bootstrap, jQuery y JSON. Participación activa en múltiples tareas del backlog, incluyendo consultas y mantenimiento en PostgreSQL, además de garantizar que todas las webs fueran responsive y sin scroll."
+    },
+    "maskokotas": {
+      "text": "Experiencia enfocado en la parte frontend, y realizando también tareas de backend para obtener y gestionar datos. Participación en tareas del carrito de compra, incluyendo funcionalidades como el cambio de divisas. Participación activa en múltiples tareas del backlog, además de garantizar que todas las webs fueran responsive."
+    },
+    "adstorm": {
+      "text": "Experiencia transformando mockups en sitios web funcionales implementándolos en WordPress con plantillas Divi. Desarrollo frontend basado en diseños proporcionados, asegurando precisión visual y funcionalidad completa."
+    }
+  },
+  "education-section": {
+    "CFGS": "TÉCNICO SUPERIOR DESARROLLO DE APLICACIONES WEB",
+    "CFGM": "TÉCNICO SISTEMAS MICROINFORMÁTICOS Y REDES"
+  },
+  "certification-section": {
+    "cert-2021": {
+      "title": "CODING BOOTCAMP DESARROLLADOR WEB FULL STACK JAVASCRIPT",
+      "concepts": {
+        "concept-1": "Las TIC.",
+        "concept-2": "Tecnologías y diseño Web, HTML i CSS.",
+        "concept-3": "Algoritmos y programas. Programación Backend.",
+        "concept-4": "Almacenes de datos.",
+        "concept-5": "Interacción con el usuario. FrontEnd con ReactJS.",
+        "concept-6": "Proyecto. Integración FrontEnd / BackEnd."
+      }
+    }
+  }
 }

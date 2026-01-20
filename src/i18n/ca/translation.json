@@ -44,5 +44,42 @@
   "lang-esp": "Castellà",
   "lang-ca": "Català",
   "lang-en": "Anglès",
-  "others": "Altres"
+  "others": "Altres",
+  "projects-section": {
+    "rentari": {
+      "text": "Rènting de vehicles per a empreses i particulars, fàcil, segur i 100% digital."
+    },
+    "github": {
+      "text": "Tots els meus dissenys i projectes actuals i futurs són aquí!"
+    },
+    "visit": "Visitar"
+  },
+  "experience-section": {
+    "alemany": {
+      "text": "Experiència treballant amb arxius JSP i amb Java, aplicant mesures de seguretat en variables i també als arxius JSP. Desenvolupament de funcionalitats multillenguatge mitjançant arxius d'idioma. Gestió professional diària de JavaScript, HTML, CSS, Bootstrap, jQuery i JSON. Participació activa en múltiples tasques del backlog, incloent consultes i manteniment en PostgreSQL, a més de garantir que totes les webs fossin responsive i sense scroll."
+    },
+    "maskokotas": {
+      "text": "Experiència centrada en la part frontend, realitzant també tasques de backend per obtenir i gestionar dades. Participació en tasques del carret de compra, incloent funcionalitats com el canvi de divises. Participació activa en múltiples tasques del backlog, a més de garantir que totes les webs fossin responsive."
+    },
+    "adstorm": {
+      "text": "Experiència transformant maquetes en llocs web funcionals implementant-los a WordPress amb plantilles Divi. Desenvolupament frontend basat en dissenys proporcionats, assegurant precisió visual i funcionalitat completa."
+    }
+  },
+  "education-section": {
+    "CFGS": "TÈCNIC SUPERIOR EN DESENVOLUPAMENT D'APLICACIONS WEB",
+    "CFGM": "TÈCNIC EN SISTEMES MICROINFORMÀTICS I XARXES"
+  },
+  "certification-section": {
+    "cert-2021": {
+      "title": "CODING BOOTCAMP DESENVOLUPADOR WEB FULL STACK JAVASCRIPT",
+      "concepts": {
+        "concept-1": "Les TIC.",
+        "concept-2": "Tecnologies i disseny web, HTML i CSS.",
+        "concept-3": "Algorismes i programes. Programació Backend.",
+        "concept-4": "Emmagatzematge de dades.",
+        "concept-5": "Interacció amb l'usuari. FrontEnd amb ReactJS.",
+        "concept-6": "Projecte. Integració FrontEnd / BackEnd."
+      }
+    }
+  }
 }
