@@ -35,6 +35,14 @@
     "consistent": "Constant",
     "consistent-text": "Cada objectiu s'ha de complir en la data o esdeveniment acordat.",
     "collaborative": "Col·laboratiu",
-    "collaborative-text": "Una barca no es mou per un sol navegant. Remem junts en la mateixa direcció."
-  }
+    "collaborative-text": "Una barca no es mou per un sol navegant. Remem junts en la mateixa direcció.",
+    "inmediate-availability": "Incorporació immediata",
+    "full-time-availability": "Disponibilitat horària completa",
+    "driving-licence": "Permís de conduir B1"
+  },
+  "languages": "Idiomes",
+  "lang-esp": "Castellà",
+  "lang-ca": "Català",
+  "lang-en": "Anglès",
+  "others": "Altres"
 }

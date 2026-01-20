@@ -35,6 +35,14 @@
     "consistent": "Consistent",
     "consistent-text": "Every goal must be achieved on the agreed date or event.",
     "collaborative": "Collaborative",
-    "collaborative-text": "A boat doesn’t move with only one sailor. Let’s row together in the same direction."
-  }
+    "collaborative-text": "A boat doesn’t move with only one sailor. Let’s row together in the same direction.",
+    "inmediate-availability": "Immediate availability",
+    "full-time-availability": "Full time availability",
+    "driving-licence": "B1 driving licence"
+  },
+  "languages": "Languages",
+  "lang-esp": "Spanish",
+  "lang-ca": "Catalan",
+  "lang-en": "English",
+  "others": "Others"
 }

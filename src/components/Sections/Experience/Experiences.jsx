@@ -1,13 +1,15 @@
+import { useTranslation } from "react-i18next";
 import { experiences } from "../../../data/experiences";
 import { Card } from "../../UI/Card/Card";
 import { TitleSection } from "../../UI/TitleSection";
 export const Experiences = () => {
+  const { t } = useTranslation();
   return (
     <section id="experience">
       <TitleSection
         classTitle="title-section"
-        titleWithoutHighlighting="Mi"
-        titleHighlighting="Experiencia"
+        titleWithoutHighlighting={t("mine")}
+        titleHighlighting={t("experience")}
       />
       <div className="grid grid-cols-12 gap-4">
         {experiences &&
