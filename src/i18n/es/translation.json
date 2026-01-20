@@ -35,6 +35,14 @@
     "consistent": "Constante",
     "consistent-text": "Cada objetivo debe cumplirse en la fecha o evento acordado.",
     "collaborative": "Colaborativo",
-    "collaborative-text": "Una barca no se mueve por un solo navegante. Rememos juntos en una misma dirección."
-  }
+    "collaborative-text": "Una barca no se mueve por un solo navegante. Rememos juntos en una misma dirección.",
+    "inmediate-availability": "Incorporación immediata",
+    "full-time-availability": "Disponibilidad horária completa",
+    "driving-licence": "Permiso de conducir B1"
+  },
+  "languages": "Idiomas",
+  "lang-esp": "Castellano",
+  "lang-ca": "Catalán",
+  "lang-en": "Inglés",
+  "others": "Otros"
 }
