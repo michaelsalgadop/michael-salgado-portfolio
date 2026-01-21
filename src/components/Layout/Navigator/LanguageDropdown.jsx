@@ -1,6 +1,8 @@
-export const LanguageDropdown = (props) => {
-  const { languages, setOpen, t, i18n, setSelected } = props;
+import { useTranslation } from "react-i18next";
 
+export const LanguageDropdown = (props) => {
+  const { languages, setOpen, setSelected } = props;
+  const { t, i18n } = useTranslation();
   const handleLanguage = (codeLanguage) => {
     setSelected(codeLanguage);
     i18n.changeLanguage(codeLanguage);
