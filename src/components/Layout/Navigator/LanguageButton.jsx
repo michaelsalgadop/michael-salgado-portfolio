@@ -1,7 +1,9 @@
 import { useMemo } from "react";
+import { useTranslation } from "react-i18next";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
 export const LanguageButton = (props) => {
-  const { languages, open, setOpen, selected, t } = props;
+  const { languages, open, setOpen, selected } = props;
+  const { t } = useTranslation();
   const languageSelected = useMemo(
     () => languages.find((language) => language.code === selected),
     [selected, languages]
