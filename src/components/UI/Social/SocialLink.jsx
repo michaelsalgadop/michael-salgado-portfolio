@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export const SocialLink = React.memo((props) => {
   const { href, Icon, rel } = props;
@@ -15,3 +16,8 @@ export const SocialLink = React.memo((props) => {
     </li>
   );
 });
+SocialLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  Icon: PropTypes.elementType.isRequired,
+  rel: PropTypes.string,
+};

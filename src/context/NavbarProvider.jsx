@@ -1,5 +1,6 @@
 import { NavbarContext } from "./NavbarContext";
 import { useMemo, useRef, useState } from "react";
+import PropTypes from "prop-types";
 import {
   FaBook,
   FaBriefcase,
@@ -39,3 +40,6 @@ export function NavbarProvider({ children }) {
     </NavbarContext.Provider>
   );
 }
+NavbarProvider.propTypes = {
+  children: PropTypes.node.isRequired,
+};

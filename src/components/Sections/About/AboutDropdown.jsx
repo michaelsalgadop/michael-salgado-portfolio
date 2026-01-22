@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import PropTypes from "prop-types";
 import { AboutSkillButton } from "./AboutSkillButton";
 
 export const AboutDropdown = ({
@@ -31,4 +32,16 @@ export const AboutDropdown = ({
       </div>
     </div>
   );
+};
+AboutDropdown.propTypes = {
+  id: PropTypes.oneOf(["languages", "others"]).isRequired,
+  openMenu: PropTypes.oneOf([null, "languages", "others"]),
+  setOpenMenu: PropTypes.func.isRequired,
+  buttonProps: PropTypes.shape({
+    textBtn: PropTypes.string.isRequired,
+    Icon: PropTypes.elementType.isRequired,
+    classIcon: PropTypes.string,
+  }).isRequired,
+  collapseDropdown: PropTypes.bool.isRequired,
+  children: PropTypes.node.isRequired,
 };

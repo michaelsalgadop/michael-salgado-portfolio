@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import PropTypes from "prop-types";
 import { useNavigate } from "../../hooks/useNavigate";
 import { NavbarContext } from "../../context/NavbarContext";
 import { useTranslation } from "react-i18next";
@@ -30,4 +31,9 @@ export const Logo = ({
       />
     </a>
   );
+};
+Logo.propTypes = {
+  isLogoSmall: PropTypes.bool,
+  loadedLogo: PropTypes.bool,
+  setLoadedLogo: PropTypes.func,
 };

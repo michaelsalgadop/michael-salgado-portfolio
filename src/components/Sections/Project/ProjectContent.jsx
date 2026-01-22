@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 import { Tecnologies } from "../../UI/Card/Tecnologies";
 
@@ -21,4 +22,11 @@ export const ProjectContent = ({ name, date1, text, stack, url }) => {
       )}
     </figcaption>
   );
+};
+ProjectContent.propTypes = {
+  name: PropTypes.string.isRequired,
+  date1: PropTypes.number.isRequired,
+  text: PropTypes.string.isRequired,
+  stack: PropTypes.arrayOf(PropTypes.string), // array de strings no requerida(puede ser null)
+  url: PropTypes.string.isRequired,
 };

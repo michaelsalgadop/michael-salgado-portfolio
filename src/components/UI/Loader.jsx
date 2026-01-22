@@ -1,4 +1,5 @@
-export const Loader = ({ loadedLogo = null }) => {
+import PropTypes from "prop-types";
+export const Loader = ({ loadedLogo = false }) => {
   return (
     <div
       className={`size-45 md:size-50 border-10 border-gray-900 border-l-tertiary border-t-tertiary border-b-tertiary rounded-full animate-spin absolute ${
@@ -6,4 +7,7 @@ export const Loader = ({ loadedLogo = null }) => {
       } transition-opacity duration-500 ease-out`}
     ></div>
   );
+};
+Loader.propTypes = {
+  loadedLogo: PropTypes.bool,
 };
