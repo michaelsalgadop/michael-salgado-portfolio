@@ -15,7 +15,7 @@ export const LanguageButton = (props) => {
     >
       <img
         src={`./flags/${languageSelected.code}.webp`}
-        alt={`${t("flag")} ${languageSelected.code}`}
+        alt={`${t("lang")} ${t(`lang-${languageSelected.code}`)}`}
         className="size-10 object-cover rounded-full mr-2"
       />
       {open ? <FaAngleUp /> : <FaAngleDown />}

@@ -16,7 +16,7 @@ export const Languages = ({ openMenu, setOpenMenu }) => {
         classIcon: "mr-1 size-6",
       }}
     >
-      <Language languageText={t("lang-esp")} level="C2" />
+      <Language languageText={t("lang-es")} level="C2" />
       <Language languageText={t("lang-ca")} level="C2" />
       <Language languageText={t("lang-en")} level="B1" />
     </AboutDropdown>
