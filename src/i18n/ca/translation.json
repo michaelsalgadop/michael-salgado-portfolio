@@ -6,7 +6,7 @@
   "web-proyects": "Projectes",
   "download-cv": "Descarregar CV",
   "tittle-page": "Desenvolupador expert en",
-  "flag": "Bandera de",
+  "lang": "Idioma",
   "personal-brand": "Si m'hagués de definir amb tres paraules, serien Perfeccionisme, Creativitat i Constància.",
   "about-me-p-1": "Desenvolupador web amb un fort enfocament en JavaScript, tant en la forma nativa com treballant amb tecnologies modernes com React i NodeJS.",
   "about-me-p-2": "He treballat amb bases de dades relacionals (MySQL) i no relacionals (MongoDB), i tinc experiència en l'ús de Git per a control de versions.",
@@ -41,7 +41,7 @@
     "driving-licence": "Permís de conduir B1"
   },
   "languages": "Idiomes",
-  "lang-esp": "Castellà",
+  "lang-es": "Castellà",
   "lang-ca": "Català",
   "lang-en": "Anglès",
   "others": "Altres",

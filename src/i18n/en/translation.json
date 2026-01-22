@@ -6,7 +6,7 @@
   "web-proyects": "Projects",
   "download-cv": "Download CV",
   "tittle-page": "Expert developer",
-  "flag": "Flag of",
+  "lang": "Language",
   "personal-brand": "If I had to define myself in three words, they would be Perfectionism, Creativity, and Perseverance.",
   "about-me-p-1": "Web developer with a strong focus on JavaScript, both in its native form and working with modern technologies such as React and NodeJS.",
   "about-me-p-2": "I have worked with relational (MySQL) and non-relational (MongoDB) databases, and I have experience using Git for version control.",
@@ -41,7 +41,7 @@
     "driving-licence": "B1 driving licence"
   },
   "languages": "Languages",
-  "lang-esp": "Spanish",
+  "lang-es": "Spanish",
   "lang-ca": "Catalan",
   "lang-en": "English",
   "others": "Others",

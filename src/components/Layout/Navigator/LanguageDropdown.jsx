@@ -20,7 +20,7 @@ export const LanguageDropdown = (props) => {
             >
               <img
                 src={`./flags/${lang.code}.webp`}
-                alt={`${t("flag")} ${lang.code}`}
+                alt={`${t("lang")} ${t(`lang-${lang.code}`)}`}
                 className="size-10 object-cover rounded-full mr-2"
               />
               {lang.label}
