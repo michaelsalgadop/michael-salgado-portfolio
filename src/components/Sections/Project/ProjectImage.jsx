@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-
+import PropTypes from "prop-types";
 export const ProjectImage = ({ name, img }) => {
   const { t } = useTranslation();
   return (
@@ -10,4 +10,8 @@ export const ProjectImage = ({ name, img }) => {
       className="w-full h-full object-cover object-[50%_30%] scale-110 opacity-0 lg:opacity-100 lg:scale-100 border-0 block lg:group-hover:scale-110 lg:group-hover:opacity-0 transition-all duration-450 ease-in-out"
     />
   );
+};
+ProjectImage.propTypes = {
+  name: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
 };
