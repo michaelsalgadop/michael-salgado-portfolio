@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 
 export const LanguageDropdown = (props) => {
   const { languages, setOpen, setSelected } = props;
@@ -10,7 +11,7 @@ export const LanguageDropdown = (props) => {
   };
   return (
     <div className="absolute w-[125px] xl:w-[150px] top-[45px] right-2.5 z-40">
-      {languages ? (
+      {languages?.length > 0 ? (
         <ul className="border-2 border-white rounded-xl bg-slate-900">
           {languages.map((lang) => (
             <li
@@ -28,8 +29,18 @@ export const LanguageDropdown = (props) => {
           ))}
         </ul>
       ) : (
-        "Idiomas no disponibles"
+        t("language-not-available")
       )}
     </div>
   );
+};
+LanguageDropdown.propTypes = {
+  languages: PropTypes.arrayOf(
+    PropTypes.shape({
+      code: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  setOpen: PropTypes.func.isRequired,
+  setSelected: PropTypes.func.isRequired,
 };
