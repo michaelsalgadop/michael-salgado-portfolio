@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import PropTypes from "prop-types";
 
 export const TitleCard = React.memo(({ center, position, education }) => {
   const title = useMemo(() => {
@@ -12,3 +13,8 @@ export const TitleCard = React.memo(({ center, position, education }) => {
     </h4>
   );
 });
+TitleCard.propTypes = {
+  center: PropTypes.string,
+  position: PropTypes.string,
+  education: PropTypes.string,
+};

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { BodyCard } from "./BodyCard";
 import { ConceptsCard } from "./ConceptsCard";
 import { DateCard } from "./DateCard";
@@ -33,4 +34,15 @@ export const Card = (props) => {
       )}
     </article>
   );
+};
+Card.propTypes = {
+  date1: PropTypes.number.isRequired,
+  center: PropTypes.string,
+  concepts: PropTypes.arrayOf(PropTypes.string),
+  text: PropTypes.string,
+  date2: PropTypes.number,
+  position: PropTypes.string,
+  education: PropTypes.string,
+  ubication: PropTypes.string,
+  stack: PropTypes.arrayOf(PropTypes.string),
 };

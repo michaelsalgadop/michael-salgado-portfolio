@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
 export const ConceptsCard = React.memo(({ concepts }) => {
@@ -11,3 +12,6 @@ export const ConceptsCard = React.memo(({ concepts }) => {
     </ul>
   );
 });
+ConceptsCard.propTypes = {
+  concepts: PropTypes.arrayOf(PropTypes.string),
+};
