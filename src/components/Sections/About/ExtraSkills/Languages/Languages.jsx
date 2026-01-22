@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { FaGlobe } from "react-icons/fa6";
 import { AboutDropdown } from "../../AboutDropdown";
 import { Language } from "./Language";
@@ -21,4 +22,8 @@ export const Languages = ({ openMenu, setOpenMenu }) => {
       <Language languageText={t("lang-en")} level="B1" />
     </AboutDropdown>
   );
+};
+Languages.propTypes = {
+  openMenu: PropTypes.oneOf([null, "languages", "others"]),
+  setOpenMenu: PropTypes.func.isRequired,
 };

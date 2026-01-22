@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import PropTypes from "prop-types";
 
 export const Language = ({ languageText, level }) => {
   const levelProperties = useMemo(() => {
@@ -43,4 +44,8 @@ export const Language = ({ languageText, level }) => {
       </div>
     </li>
   );
+};
+Language.propTypes = {
+  languageText: PropTypes.string.isRequired,
+  level: PropTypes.oneOf(["A1", "A2", "B1", "B2", "C1", "C2"]).isRequired,
 };

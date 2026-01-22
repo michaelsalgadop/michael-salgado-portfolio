@@ -1,6 +1,8 @@
+import PropTypes from "prop-types";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
+
 export const LanguageButton = (props) => {
   const { languages, open, setOpen, selected } = props;
   const { t } = useTranslation();
@@ -21,4 +23,15 @@ export const LanguageButton = (props) => {
       {open ? <FaAngleUp /> : <FaAngleDown />}
     </div>
   );
+};
+LanguageButton.propTypes = {
+  languages: PropTypes.arrayOf(
+    PropTypes.shape({
+      code: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  open: PropTypes.bool.isRequired,
+  setOpen: PropTypes.func.isRequired,
+  selected: PropTypes.string.isRequired,
 };

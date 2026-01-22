@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import PropTypes from "prop-types";
 import { useNavigate } from "../../../hooks/useNavigate";
 import { NavbarContext } from "../../../context/NavbarContext";
 
@@ -30,3 +31,9 @@ export const Option = React.memo(({ url, text, isMobile, Icon }) => {
     </li>
   );
 });
+Option.propTypes = {
+  url: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  isMobile: PropTypes.bool.isRequired,
+  Icon: PropTypes.elementType.isRequired,
+};

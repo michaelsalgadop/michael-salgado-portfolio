@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import { Option } from "./Option";
 import { useContext, useEffect } from "react";
 import { NavbarContext } from "../../../context/NavbarContext";
@@ -22,4 +23,7 @@ export const Options = ({ isMobile = true }) => {
       ))}
     </>
   );
+};
+Options.propTypes = {
+  isMobile: PropTypes.bool.isRequired,
 };

@@ -1,4 +1,5 @@
 import { FaEllipsis } from "react-icons/fa6";
+import PropTypes from "prop-types";
 import { AboutDropdown } from "../../AboutDropdown";
 import { Hability } from "./Hability";
 import { useTranslation } from "react-i18next";
@@ -22,4 +23,8 @@ export const Others = ({ openMenu, setOpenMenu }) => {
       <Hability text={t("about-section.driving-licence")} />
     </AboutDropdown>
   );
+};
+Others.propTypes = {
+  openMenu: PropTypes.oneOf([null, "languages", "others"]),
+  setOpenMenu: PropTypes.func.isRequired,
 };
