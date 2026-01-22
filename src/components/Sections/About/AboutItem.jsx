@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 export const AboutItem = (props) => {
   const { title, text, classTitle, classText } = props;
   return (
@@ -6,4 +7,14 @@ export const AboutItem = (props) => {
       <p className={classText}>{text}</p>
     </li>
   );
+};
+AboutItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  classTitle: PropTypes.string,
+  classText: PropTypes.string,
+};
+AboutItem.defaultProps = {
+  classTitle: "",
+  classText: "",
 };

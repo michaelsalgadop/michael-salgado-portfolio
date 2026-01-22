@@ -1,5 +1,5 @@
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
-
+import PropTypes from "prop-types";
 export const AboutSkillButton = (props) => {
   const { textBtn, Icon, classIcon, state, handlerToogle } = props;
 
@@ -17,4 +17,14 @@ export const AboutSkillButton = (props) => {
       )}
     </button>
   );
+};
+AboutSkillButton.propTypes = {
+  textBtn: PropTypes.string.isRequired,
+  Icon: PropTypes.elementType.isRequired,
+  classIcon: PropTypes.string,
+  state: PropTypes.bool.isRequired,
+  handlerToogle: PropTypes.func.isRequired,
+};
+AboutSkillButton.defaultProps = {
+  classIcon: "",
 };
