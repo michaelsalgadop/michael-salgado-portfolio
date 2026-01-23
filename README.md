@@ -1,16 +1,119 @@
-# React + Vite
+# Portfolio Personal – Michael Salgado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código fuente de mi portfolio personal, una aplicación web desarrollada como Single Page Application (SPA) con foco en calidad de código, reutilización de componentes y buenas prácticas frontend.
 
-Currently, two official plugins are available:
+El objetivo del proyecto es **mostrar tanto mis proyectos, experiencia, formación y una descripción de como soy, tanto en el mundo laboral como personal**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## React Compiler
+Portfolio online:
+👉 **https://salgado-perez-michael-portfolio.netlify.app/**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ¿Qué demuestra este proyecto?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Arquitectura de mi proyecto y como utilizo los componentes y los reutilizo.
+
+- Gestión de estados y contexto en React.
+
+- Uso de archivos multilenguaje (i18n).
+
+- Diseño responsive y accesible.
+
+- Buenas prácticas en PropTypes.
+
+- Despliegue y entorno de producción.
+
+---
+
+## Stack tecnológico
+
+- React
+- Vite
+- Tailwind CSS
+- React i18next
+- PropTypes
+- Netlify
+- Git & GitHub
+
+---
+
+## Estructura del proyecto
+
+```bash
+src/
+├── components/ # Componentes
+│ ├── Layout/ # Componentes principales que componen la web.
+│ ├── Sections/ # Componentes que contienen las secciones de la web.
+│ ├── UI/ # Componentes reutilizables que he necesitado.
+├── context/ # Contextos globales (Navbar de momento)
+├── data/ # Datos estáticos (projects, experiences, educations y certifications)
+├── hooks/ # Custom hooks
+├── i18n/ # Archivos de traducciones
+├── pages/ # Páginas principales
+├── styles/ # Estilos auxiliares, resetters y variables css
+├── i18n.js # Configuración de i18n
+└── main.jsx
+```
+
+---
+
+## Internacionalización
+
+El portfolio soporta **múltiples idiomas**, gestionados mediante _react-i18next_.
+
+Idiomas actuales:
+
+- Español
+
+- Catalán
+
+- Inglés
+
+## **La arquitectura permite añadir nuevos idiomas sin modificar la lógica principal.**
+
+## Instalación y uso local
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/michaelsalgadop/michael-salgado-portfolio.git
+cd michael-salgado-portfolio
+```
+
+Instala dependencias:
+
+```bash
+npm install
+```
+
+Ejecuta en desarrollo:
+
+```bash
+npm run dev
+```
+
+Build de producción:
+
+```bash
+npm run build
+```
+
+---
+
+## Posibles mejoras futuras
+
+- Sección de Contacto
+
+- Tests unitarios (Vitest / Testing Library)
+
+- Light / Dark mode persistente
+
+## Contacto
+
+GitHub: **https://github.com/michaelsalgadop**
+
+LinkedIn: **https://www.linkedin.com/in/michael-salgado-perez/**
+
+Email: **michaelsalgadop11@outlook.com**
