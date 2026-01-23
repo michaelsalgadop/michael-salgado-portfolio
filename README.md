@@ -7,9 +7,8 @@ El objetivo del proyecto es **mostrar tanto mis proyectos, experiencia, formaci�
 ## Demo
 
 Portfolio online:
-👉 **https://salgado-perez-michael-portfolio.netlify.app/**
 
----
+👉 **https://salgado-perez-michael-portfolio.netlify.app/**
 
 ## ¿Qué demuestra este proyecto?
 
@@ -25,8 +24,6 @@ Portfolio online:
 
 - Despliegue y entorno de producción.
 
----
-
 ## Stack tecnológico
 
 - React
@@ -37,27 +34,23 @@ Portfolio online:
 - Netlify
 - Git & GitHub
 
----
-
 ## Estructura del proyecto
 
 ```bash
 src/
-├── components/ # Componentes
-│ ├── Layout/ # Componentes principales que componen la web.
-│ ├── Sections/ # Componentes que contienen las secciones de la web.
-│ ├── UI/ # Componentes reutilizables que he necesitado.
-├── context/ # Contextos globales (Navbar de momento)
-├── data/ # Datos estáticos (projects, experiences, educations y certifications)
-├── hooks/ # Custom hooks
-├── i18n/ # Archivos de traducciones
-├── pages/ # Páginas principales
-├── styles/ # Estilos auxiliares, resetters y variables css
-├── i18n.js # Configuración de i18n
+├── components/     # Componentes
+│ ├── Layout/       # Componentes principales que componen la web.
+│ ├── Sections/     # Componentes que contienen las secciones de la web.
+│ ├── UI/           # Componentes reutilizables que he necesitado.
+├── context/        # Contextos globales (Navbar de momento)
+├── data/           # Datos estáticos (projects, experiences, educations y certifications)
+├── hooks/          # Custom hooks
+├── i18n/           # Archivos de traducciones
+├── pages/          # Páginas principales
+├── styles/         # Estilos auxiliares, resetters y variables css
+├── i18n.js         # Configuración de i18n
 └── main.jsx
 ```
-
----
 
 ## Internacionalización
 
@@ -71,7 +64,7 @@ Idiomas actuales:
 
 - Inglés
 
-## **La arquitectura permite añadir nuevos idiomas sin modificar la lógica principal.**
+**La arquitectura permite añadir nuevos idiomas sin modificar la lógica principal.**
 
 ## Instalación y uso local
 
@@ -99,8 +92,6 @@ Build de producción:
 ```bash
 npm run build
 ```
-
----
 
 ## Posibles mejoras futuras
 
