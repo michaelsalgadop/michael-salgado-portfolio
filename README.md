@@ -107,4 +107,4 @@ GitHub: **https://github.com/michaelsalgadop**
 
 LinkedIn: **https://www.linkedin.com/in/michael-salgado-perez/**
 
-Email: **michaelsalgadop11@outlook.com**
+Email: **[michaelsalgadop11@outlook.com](mailto:michaelsalgadop11@outlook.com)**
